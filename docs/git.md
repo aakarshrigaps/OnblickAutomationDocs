@@ -131,3 +131,25 @@ Here is a typical Git workflow diagram.
 6. **Pull updates** and merge them into your local branch with `git pull`.
 7. **Switch branches** using `git checkout` as needed.
 8. **Merge or rebase branches** using `git merge/rebase`.
+
+### Writing Good Commit Messages
+
+When writing commit messages, follow these guidelines:
+
+- Keep the subject line concise (50 characters or less).
+- Use the imperative mood (e.g., "Add feature" instead of "Added feature").
+- Structure your commit message with a type and subject line:
+	- **feat** : a new feature is introduced with the changes
+	- **fix** : a bug fix has occurred
+	- **chore** : changes that do not relate to a fix or feature and don't modify `src` or test files (e.g., updating dependencies)
+	- **refactor** : refactored code that neither fixes a bug nor adds a feature
+	- **docs** : updates to documentation, such as the `README` or other markdown files
+	- **style** : changes that do not affect the meaning of the code, likely related to code formatting (e.g., whitespace, missing semi-colons)
+	- **test** : including new or correcting previous tests
+	- **perf** : performance improvements
+	- **ci** : continuous integration-related changes
+	- **build** : changes that affect the build system or external dependencies
+	- **revert** : reverts a previous commit
+- The commit type and subject line should be all lowercase, with a character limit to encourage succinct descriptions.
+- Provide more details in the body if necessary.
+- Reference issues or pull requests if applicable.
