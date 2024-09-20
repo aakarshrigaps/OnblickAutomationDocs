@@ -11,6 +11,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      
 theme:
   name: material
   favicon: assets/images/favicon.png

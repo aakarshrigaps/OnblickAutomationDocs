@@ -4,6 +4,45 @@ The `WaitHelpers` class provides various methods for waiting for certain conditi
 
 ## Methods
 
+### **_ImplicitWaitHandler_**
+
+---
+
+Handles the implicit wait for the WebDriver instance.
+
+=== "Method Signature"
+	```csharp
+	public static void ImplicitWaitHandler(IWebDriver driver, Action action)
+	```
+
+=== "Parameters"
+
+	| Name | Type | Description |
+	| ---- | ---- | ----------- |
+	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
+	| `action` | Action | The action to perform after setting the implicit wait. |
+
+#### Usage
+
+This method is a private method which is used to wrap around all actions internally in the below methods to set the implicit wait before performing the action and then reset the implicit wait after the action is performed.
+
+=== "WaitForElementToBeVisible"
+	```csharp
+	ImplicitWaitHandler(driver, () =>
+	{
+		WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(time));
+		wait.Until(ExpectedConditions.ElementIsVisible(element));
+	});
+	```
+=== "WaitForElementToBeClickable"
+	```csharp
+	ImplicitWaitHandler(driver, () =>
+	{
+		WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(time));
+		wait.Until(ExpectedConditions.ElementToBeClickable(element));
+	});
+	```
+
 ### **WaitForElementToBeVisible**
 
 ---
