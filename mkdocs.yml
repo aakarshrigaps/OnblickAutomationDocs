@@ -1,4 +1,4 @@
-site_name: Onblick Automation Reference Guide
+site_name: OnBlick Automation Reference Guide
 markdown_extensions:
   - attr_list
   - pymdownx.highlight:
@@ -14,8 +14,9 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
-      type: timeago
       locale: en
+  - git-authors
+      
 theme:
   name: material
   favicon: assets/images/favicon.png
