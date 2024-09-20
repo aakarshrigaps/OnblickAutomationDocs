@@ -1,4 +1,4 @@
-# Onblick Automation Reference Guide
+# OnBlick Automation Reference Guide
 
 ## **Introduction**
 
