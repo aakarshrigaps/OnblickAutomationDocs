@@ -14,7 +14,8 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
-      
+      type: timeago
+      locale: en
 theme:
   name: material
   favicon: assets/images/favicon.png
