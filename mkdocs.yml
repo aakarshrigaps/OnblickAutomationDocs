@@ -31,12 +31,12 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
     actions:
-      - manage
-      - reject
       - accept
+      - reject
+      - manage
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+    property: G-KHXS6BPD46
     feedback:
       title: Was this page helpful?
       ratings:
