@@ -22,6 +22,7 @@ plugins:
   - git-authors
       
 extra:
+  generator: false
   consent:
     title: Cookie consent
     description: >- 
@@ -30,12 +31,12 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
     actions:
-      - accept
-      - reject
       - manage
+      - reject
+      - accept
   analytics:
     provider: google
-    property: G-KHXS6BPD46
+    property: !ENV GOOGLE_ANALYTICS_KEY
     feedback:
       title: Was this page helpful?
       ratings:
@@ -60,8 +61,12 @@ theme:
     - navigation.instant.progress
     - navigation.instant.prefetch
     - navigation.top
+    - navigation.footer
     - content.code.copy
     - content.code.select
+    - search.suggest
+    - search.highlight
+    - search.share
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
