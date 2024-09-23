@@ -1,5 +1,4 @@
 site_name: OnBlick Automation Reference Guide
-site_url: https://aakarshrigaps.github.io/OnblickAutomationDocs/Getting Started/
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -23,7 +22,6 @@ plugins:
   - git-authors
       
 extra:
-  homepage: OnblickAutomationDocs/Getting Started
   analytics:
     provider: google
     property: G-KHXS6BPD46
@@ -74,8 +72,8 @@ theme:
   logo: assets/images/onblick-logo.gif
 
 nav:
+  - Home: index.md
   - Getting Started:
-      - Introduction: Getting Started/index.md
       - Conventions: Getting Started/conventions.md
       - Prerequisites: Getting Started/prerequisites.md
       - Project Structure: Getting Started/project-structure.md

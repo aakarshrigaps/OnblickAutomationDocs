@@ -10,17 +10,17 @@ Welcome to the Selenium C# Automation Project for [OnBlick 2.0](https://www.onbl
 
 ---
 
-This project focuses on creating a suite of automated tests to cover key functionalities of the web application. The project uses the [Page Object Model (POM)](../Page%20Object%20Model%20(POM)/pom-introduction.md) design pattern to enhance code maintainability and readability.
+This project focuses on creating a suite of automated tests to cover key functionalities of the web application. The project uses the [Page Object Model (POM)](./Page%20Object%20Model%20(POM)/pom-introduction.md) design pattern to enhance code maintainability and readability.
 
 ### Key Features
 
 - Automated test cases for user login, navigation, and core functionalities.
-- Structured using the [Page Object Model](../Page%20Object%20Model%20(POM)/pom-introduction.md) for better organization and maintenance.
+- Structured using the [Page Object Model](./Page%20Object%20Model%20(POM)/pom-introduction.md) for better organization and maintenance.
 - Integration with continuous integration tools for automated test execution.
 - Detailed test reports and logs for better visibility and analysis.
 
-## **Getting Started**
+## **Quick Start**
 
 ---
 
-To get started with this project, ensure you have all the [Prerequisites](./prerequisites.md) first and then follow the [setup guide](./setting-up.md) for instructions on configuring your environment and running the automated tests.
+To get started with this project, ensure you have all the [Prerequisites](./Getting%20Started/prerequisites.md) first and then follow the [setup guide](./Getting%20Started/setting-up.md) for instructions on configuring your environment and running the automated tests.
