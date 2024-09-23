@@ -1,4 +1,5 @@
 site_name: OnBlick Automation Reference Guide
+site_url: https://aakarshrigaps.github.io/OnblickAutomationDocs/Getting Started/
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -22,10 +23,10 @@ plugins:
   - git-authors
       
 extra:
-  homepage: Getting Started
+  homepage: OnblickAutomationDocs/Getting Started
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+    property: G-KHXS6BPD46
     feedback:
       title: Was this page helpful?
       ratings:
@@ -74,51 +75,51 @@ theme:
 
 nav:
   - Getting Started:
-      - Introduction: Getting Started\index.md
-      - Conventions: Getting Started\conventions.md
-      - Prerequisites: Getting Started\prerequisites.md
-      - Project Structure: Getting Started\project-structure.md
-      - Setting Up the Environment: Getting Started\setting-up.md
-      - Building the solution: Getting Started\build.md
+      - Introduction: Getting Started/index.md
+      - Conventions: Getting Started/conventions.md
+      - Prerequisites: Getting Started/prerequisites.md
+      - Project Structure: Getting Started/project-structure.md
+      - Setting Up the Environment: Getting Started/setting-up.md
+      - Building the solution: Getting Started/build.md
   - Writing Tests:
-      - Writing Proper Test Cases: Writing Tests\test-cases.md
-      - Writing Your First Test: Writing Tests\first-test.md
-      - Running Tests: Writing Tests\running-tests.md
+      - Writing Proper Test Cases: Writing Tests/test-cases.md
+      - Writing Your First Test: Writing Tests/first-test.md
+      - Running Tests: Writing Tests/running-tests.md
   - Utilities and Helpers:
       - Pre-defined Utilities:
-          - Attribute Extensions: Utilities and Helpers\Pre-defined Utilities\attribute-extensions.md
-          - Browser Options: Utilities and Helpers\Pre-defined Utilities\browser-options.md
-          - Extent Manager: Utilities and Helpers\Pre-defined Utilities\extent-manager.md
-          - Login Creds: Utilities and Helpers\Pre-defined Utilities\login-creds.md
-          - Reports Generation Class: Utilities and Helpers\Pre-defined Utilities\reports-generation-class.md
-          - Shared Failure Context: Utilities and Helpers\Pre-defined Utilities\shared-failure-context.md
-          - Soft Assertion: Utilities and Helpers\Pre-defined Utilities\soft-assertion.md
-          - Test Execution Helper: Utilities and Helpers\Pre-defined Utilities\testexecution-helper.md
-          - URLs: Utilities and Helpers\Pre-defined Utilities\urls.md
-          - Wait Helpers: Utilities and Helpers\Pre-defined Utilities\wait-helpers.md
+          - Attribute Extensions: Utilities and Helpers/Pre-defined Utilities/attribute-extensions.md
+          - Browser Options: Utilities and Helpers/Pre-defined Utilities/browser-options.md
+          - Extent Manager: Utilities and Helpers/Pre-defined Utilities/extent-manager.md
+          - Login Creds: Utilities and Helpers/Pre-defined Utilities/login-creds.md
+          - Reports Generation Class: Utilities and Helpers/Pre-defined Utilities/reports-generation-class.md
+          - Shared Failure Context: Utilities and Helpers/Pre-defined Utilities/shared-failure-context.md
+          - Soft Assertion: Utilities and Helpers/Pre-defined Utilities/soft-assertion.md
+          - Test Execution Helper: Utilities and Helpers/Pre-defined Utilities/testexecution-helper.md
+          - URLs: Utilities and Helpers/Pre-defined Utilities/urls.md
+          - Wait Helpers: Utilities and Helpers/Pre-defined Utilities/wait-helpers.md
       - Web Extensions:
-          - WebDriverExtensions: Utilities and Helpers\Web Extensions\webdriver-extensions.md
-          - WebElementExtensions: Utilities and Helpers\Web Extensions\webelement-extensions.md
+          - WebDriverExtensions: Utilities and Helpers/Web Extensions/webdriver-extensions.md
+          - WebElementExtensions: Utilities and Helpers/Web Extensions/webelement-extensions.md
   - Page Object Model (POM):
-      - Introduction: Page Object Model (POM)\pom-introduction.md
-      - Guidelines: Page Object Model (POM)\pom-guidelines.md
+      - Introduction: Page Object Model (POM)/pom-introduction.md
+      - Guidelines: Page Object Model (POM)/pom-guidelines.md
       - Frequently Utilized POM Classes:
-          - LoginPage: Page Object Model (POM)\Frequently Utilized POM Classes\login-page.md
-          - OnboardPage: Page Object Model (POM)\Frequently Utilized POM Classes\onboard-page.md
-          - SettingsPage: Page Object Model (POM)\Frequently Utilized POM Classes\settings-page.md
-          - WorkforcePage: Page Object Model (POM)\Frequently Utilized POM Classes\workforce-page.md
+          - LoginPage: Page Object Model (POM)/Frequently Utilized POM Classes/login-page.md
+          - OnboardPage: Page Object Model (POM)/Frequently Utilized POM Classes/onboard-page.md
+          - SettingsPage: Page Object Model (POM)/Frequently Utilized POM Classes/settings-page.md
+          - WorkforcePage: Page Object Model (POM)/Frequently Utilized POM Classes/workforce-page.md
           - Mail Pages:
-              - MailhogPage: Page Object Model (POM)\Frequently Utilized POM Classes\Mail Pages\mailhog-page.md
-              - MailinatorPage: Page Object Model (POM)\Frequently Utilized POM Classes\Mail Pages\mailinator-page.md
-              - MaildropPage: Page Object Model (POM)\Frequently Utilized POM Classes\Mail Pages\maildrop-page.md
+              - MailhogPage: Page Object Model (POM)/Frequently Utilized POM Classes/Mail Pages/mailhog-page.md
+              - MailinatorPage: Page Object Model (POM)/Frequently Utilized POM Classes/Mail Pages/mailinator-page.md
+              - MaildropPage: Page Object Model (POM)/Frequently Utilized POM Classes/Mail Pages/maildrop-page.md
   - Debugging and Troubleshooting:
-      - Debugging: Debugging and Troubleshooting\debugging.md
-      - Troubleshooting: Debugging and Troubleshooting\troubleshooting.md
+      - Debugging: Debugging and Troubleshooting/debugging.md
+      - Troubleshooting: Debugging and Troubleshooting/troubleshooting.md
   - Advanced Topics:
-      - Working with System Files: Advanced Topics\system-files.md
-      - Reports: Advanced Topics\reports.md
-      - Continuous Integration: Advanced Topics\ci.md
+      - Working with System Files: Advanced Topics/system-files.md
+      - Reports: Advanced Topics/reports.md
+      - Continuous Integration: Advanced Topics/ci.md
   - Best Practices and Tools:
-      - Best Practices: Best Practices and Tools\best-practices.md
-      - Using Git: Best Practices and Tools\git.md
-      - Must know Shortcuts: Best Practices and Tools\vs-shortcuts.md
+      - Best Practices: Best Practices and Tools/best-practices.md
+      - Using Git: Best Practices and Tools/git.md
+      - Must know Shortcuts: Best Practices and Tools/vs-shortcuts.md
