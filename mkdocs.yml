@@ -90,50 +90,50 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
-      - Conventions: Getting Started/conventions.md
-      - Prerequisites: Getting Started/prerequisites.md
-      - Project Structure: Getting Started/project-structure.md
-      - Setting Up the Environment: Getting Started/setting-up.md
-      - Building the solution: Getting Started/build.md
+      - Conventions: getting-started/conventions.md
+      - Prerequisites: getting-started/prerequisites.md
+      - Project Structure: getting-started/project-structure.md
+      - Setting Up the Environment: getting-started/setting-up.md
+      - Building the solution: getting-started/build.md
   - Writing Tests:
-      - Writing Proper Test Cases: Writing Tests/test-cases.md
-      - Writing Your First Test: Writing Tests/first-test.md
-      - Running Tests: Writing Tests/running-tests.md
+      - Writing Proper Test Cases: writing-tests/test-cases.md
+      - Writing Your First Test: writing-tests/first-test.md
+      - Running Tests: writing-tests/running-tests.md
   - Utilities and Helpers:
       - Pre-defined Utilities:
-          - Attribute Extensions: Utilities and Helpers/Pre-defined Utilities/attribute-extensions.md
-          - Browser Options: Utilities and Helpers/Pre-defined Utilities/browser-options.md
-          - Extent Manager: Utilities and Helpers/Pre-defined Utilities/extent-manager.md
-          - Login Creds: Utilities and Helpers/Pre-defined Utilities/login-creds.md
-          - Reports Generation Class: Utilities and Helpers/Pre-defined Utilities/reports-generation-class.md
-          - Shared Failure Context: Utilities and Helpers/Pre-defined Utilities/shared-failure-context.md
-          - Soft Assertion: Utilities and Helpers/Pre-defined Utilities/soft-assertion.md
-          - Test Execution Helper: Utilities and Helpers/Pre-defined Utilities/testexecution-helper.md
-          - URLs: Utilities and Helpers/Pre-defined Utilities/urls.md
-          - Wait Helpers: Utilities and Helpers/Pre-defined Utilities/wait-helpers.md
+          - Attribute Extensions: utilities-and-helpers/pre-defined-utilities/attribute-extensions.md
+          - Browser Options: utilities-and-helpers/pre-defined-utilities/browser-options.md
+          - Extent Manager: utilities-and-helpers/pre-defined-utilities/extent-manager.md
+          - Login Creds: utilities-and-helpers/pre-defined-utilities/login-creds.md
+          - Reports Generation Class: utilities-and-helpers/pre-defined-utilities/reports-generation-class.md
+          - Shared Failure Context: utilities-and-helpers/pre-defined-utilities/shared-failure-context.md
+          - Soft Assertion: utilities-and-helpers/pre-defined-utilities/soft-assertion.md
+          - Test Execution Helper: utilities-and-helpers/pre-defined-utilities/testexecution-helper.md
+          - URLs: utilities-and-helpers/pre-defined-utilities/urls.md
+          - Wait Helpers: utilities-and-helpers/pre-defined-utilities/wait-helpers.md
       - Web Extensions:
-          - WebDriverExtensions: Utilities and Helpers/Web Extensions/webdriver-extensions.md
-          - WebElementExtensions: Utilities and Helpers/Web Extensions/webelement-extensions.md
+          - WebDriverExtensions: utilities-and-helpers/webextensions/webdriver-extensions.md
+          - WebElementExtensions: utilities-and-helpers/webextensions/webelement-extensions.md
   - Page Object Model (POM):
-      - Introduction: Page Object Model (POM)/pom-introduction.md
-      - Guidelines: Page Object Model (POM)/pom-guidelines.md
+      - Introduction: page-object-model/pom-introduction.md
+      - Guidelines: page-object-model/pom-guidelines.md
       - Frequently Utilized POM Classes:
-          - LoginPage: Page Object Model (POM)/Frequently Utilized POM Classes/login-page.md
-          - OnboardPage: Page Object Model (POM)/Frequently Utilized POM Classes/onboard-page.md
-          - SettingsPage: Page Object Model (POM)/Frequently Utilized POM Classes/settings-page.md
-          - WorkforcePage: Page Object Model (POM)/Frequently Utilized POM Classes/workforce-page.md
+          - LoginPage: page-object-model/frequently-utilized-pom-classes/login-page.md
+          - OnboardPage: page-object-model/frequently-utilized-pom-classes/onboard-page.md
+          - SettingsPage: page-object-model/frequently-utilized-pom-classes/settings-page.md
+          - WorkforcePage: page-object-model/frequently-utilized-pom-classes/workforce-page.md
           - Mail Pages:
-              - MailhogPage: Page Object Model (POM)/Frequently Utilized POM Classes/Mail Pages/mailhog-page.md
-              - MailinatorPage: Page Object Model (POM)/Frequently Utilized POM Classes/Mail Pages/mailinator-page.md
-              - MaildropPage: Page Object Model (POM)/Frequently Utilized POM Classes/Mail Pages/maildrop-page.md
+              - MailhogPage: page-object-model/frequently-utilized-pom-classes/mail-pages/mailhog-page.md
+              - MailinatorPage: page-object-model/frequently-utilized-pom-classes/mail-pages/mailinator-page.md
+              - MaildropPage: page-object-model/frequently-utilized-pom-classes/mail-pages/maildrop-page.md
   - Debugging and Troubleshooting:
-      - Debugging: Debugging and Troubleshooting/debugging.md
-      - Troubleshooting: Debugging and Troubleshooting/troubleshooting.md
+      - Debugging: debugging-and-troubleshooting/debugging.md
+      - Troubleshooting: debugging-and-troubleshooting/troubleshooting.md
   - Advanced Topics:
-      - Working with System Files: Advanced Topics/system-files.md
-      - Reports: Advanced Topics/reports.md
-      - Continuous Integration: Advanced Topics/ci.md
+      - Working with System Files: advanced-topics/system-files.md
+      - Reports: advanced-topics/reports.md
+      - Continuous Integration: advanced-topics/ci.md
   - Best Practices and Tools:
-      - Best Practices: Best Practices and Tools/best-practices.md
-      - Using Git: Best Practices and Tools/git.md
-      - Must know Shortcuts: Best Practices and Tools/vs-shortcuts.md
+      - Best Practices: best-practices-and-tools/best-practices.md
+      - Using Git: best-practices-and-tools/git.md
+      - Must know Shortcuts: best-practices-and-tools/vs-shortcuts.md
