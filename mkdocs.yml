@@ -47,7 +47,7 @@ extra:
             Thanks for your feedback!
         - icon: material/emoticon-sad-outline
           name: This page could be improved
-          data: 0
+          data: -1
           note: >- 
             Thanks for your feedback! Help us improve this page by
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWYeNOUVBIXC6z-oSacs6OQd4wVFryX6tZ69UhSDteAFN6fw/viewform" target="_blank" rel="noopener">telling us what you're missing</a>.
