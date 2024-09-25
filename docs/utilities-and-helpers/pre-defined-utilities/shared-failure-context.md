@@ -6,7 +6,7 @@ Below are the methods in `SharedFailureContext`:
 
 ## Methods
 
-### InitializeExceptionDetails [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### InitializeExceptionDetails [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -40,7 +40,7 @@ Initializes the exception details in the shared failure context. It is used in [
 	SharedFailureContext.InitializeExceptionDetails(ex);
 	```
 
-### ResetExceptionDetails [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### ResetExceptionDetails [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -67,7 +67,7 @@ Resets the exception details in the shared failure context. It is used in [`Exec
 	SharedFailureContext.ResetExceptionDetails();
 	```
 
-### GetStacktraceFailedLines [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetStacktraceFailedLines [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 

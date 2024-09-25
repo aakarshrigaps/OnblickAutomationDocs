@@ -4,7 +4,7 @@ WebDriverExtensions is a collection of extensions for Selenium WebDriver. It pro
 
 ## Methods
 
-### OpenNewTab [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### OpenNewTab [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -31,7 +31,7 @@ The `OpenNewTab` method is an extension method that opens a new tab.
 	driver.OpenNewTab();
 	```
 
-### UploadFile [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### UploadFile [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -59,7 +59,7 @@ The `UploadFile` method is an extension method that uploads a file to a file inp
 	driver.UploadFile("C:\\path\\to\\file.txt");
 	```
 
-### GetUserName [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetUserName [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -86,7 +86,7 @@ The `GetUserName` method is an extension method that retrieves the username of t
 	```csharp
 	string userName = driver.GetUserName();
 	```
-### GetDesignation [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetDesignation [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -114,7 +114,7 @@ The `GetDesignation` method is an extension method that retrieves the designatio
 	string designation = driver.GetDesignation();
 	```
 
-### GetCurrentRole [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetCurrentRole [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -142,7 +142,7 @@ The `GetCurrentRole` method is an extension method that retrieves the current ro
 	string role = driver.GetCurrentRole();
 	```
 
-### GetOrgName [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetOrgName [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -170,7 +170,7 @@ The `GetOrgName` method is an extension method that retrieves the organization n
 	string orgName = driver.GetOrgName();
 	```
 
-### GetCandidateProfileName [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetCandidateProfileName [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -198,7 +198,7 @@ The `GetCandidateProfileName` method is an extension method that retrieves the c
 	string candidateProfileName = driver.GetCandidateProfileName();
 	```
 
-### SetZoomLevel [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+### SetZoomLevel [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 ---
 
 The `SetZoomLevel` method is an extension method that sets the zoom level of the browser.
@@ -228,7 +228,7 @@ The `SetZoomLevel` method is an extension method that sets the zoom level of the
 	```
 _Note: Refrain from using this method for now as it's still a bit undeveloped._
 
-### ClickByOffSetFromViewport [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+### ClickByOffSetFromViewport [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 

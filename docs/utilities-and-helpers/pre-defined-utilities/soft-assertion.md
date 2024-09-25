@@ -26,7 +26,7 @@ If assertion fails, log the failure to report and continue with the test executi
 
 ## **Methods**
 
-### AreEqual [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### AreEqual [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -55,7 +55,7 @@ Asserts that two objects are equal. If the assertion fails, logs the failure to 
 	- If the assertion fails or passes, logs the failure to the report using [`LogSubstep`](./reports-generation-class.md/#logsubstep) and adds the error to the errors list using [AddErrorMessage](#adderrormessage).
 	- If the assertion fails, adds the error message to the list of errors along with the current stack frame (2-level deep) where the assertion has failed.
 
-### AreNotEqual [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### AreNotEqual [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -84,7 +84,7 @@ Asserts that two objects are not equal. If the assertion fails, logs the failure
 	- If the assertion fails or passes, logs the failure to the report using [`LogSubstep`](./reports-generation-class.md/#logsubstep) and adds the error to the errors list using [AddErrorMessage](#adderrormessage).
 	- If the assertion fails, adds the error message to the list of errors along with the current stack frame (2-level deep) where the assertion has failed.
 
-### Contains [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### Contains [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -113,7 +113,7 @@ Asserts that a collection contains a specified element. If the assertion fails, 
 	- If the assertion fails or passes, logs the failure to the report using [`LogSubstep`](./reports-generation-class.md/#logsubstep) and adds the error to the errors list using [AddErrorMessage](#adderrormessage).
 	- If the assertion fails, adds the error message to the list of errors along with the current stack frame (2-level deep) where the assertion has failed.
 
-### IsTrue [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### IsTrue [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -140,7 +140,7 @@ Asserts that a condition is `true`. If the assertion fails, logs the failure to 
 	- If the assertion fails or passes, logs the failure to the report using [`LogSubstep`](./reports-generation-class.md/#logsubstep) and adds the error to the errors list using [AddErrorMessage](#adderrormessage).
 	- If the assertion fails, adds the error message to the list of errors along with the current stack frame (2-level deep) where the assertion has failed.
 
-### IsFalse [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### IsFalse [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -168,7 +168,7 @@ Asserts that a condition is `false`. If the assertion fails, logs the failure to
 	- If the assertion fails or passes, logs the failure to the report using [`LogSubstep`](./reports-generation-class.md/#logsubstep) and adds the error to the errors list using [AddErrorMessage](#adderrormessage).
 	- If the assertion fails, adds the error message to the list of errors along with the current stack frame (2-level deep) where the assertion has failed.
 
-### AddErrorMessage [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### AddErrorMessage [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -194,7 +194,7 @@ Adds an error message to the list of errors in the `SoftAssertion` instance, alo
 	- **Add Assertion Error Message**:
 		- If `customMessage` is null, empty, or already part of `assertionErrorMessage`, adds the message to the `errors` list in the format: `{assertionErrorMessage} {stackFrameFailedLine}`.
 
-### GetErrors [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetErrors [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -216,7 +216,7 @@ Returns the list of errors in the `SoftAssertion` instance.
 	List<string> errors = assert.GetErrors();
 	```
 
-### GetStackFrameFailedLine [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+### GetStackFrameFailedLine [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -246,7 +246,7 @@ Returns the current stack frame information of the failed line.
 	string stackFrameFailedLine = GetStackFrameFailedLine();
 	``
 
-### AssertAll [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### AssertAll [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 

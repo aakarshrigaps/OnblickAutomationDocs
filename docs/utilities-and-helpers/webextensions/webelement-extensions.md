@@ -4,7 +4,7 @@
 
 ## **Methods**
 
-### GetDriverFromElement [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+### GetDriverFromElement [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 The `GetDriverFromElement` method is a private method used in almost all the methods in this class to get the WebDriver instance from an IWebElement object.
 
@@ -24,7 +24,7 @@ The `GetDriverFromElement` method is a private method used in almost all the met
 	The method returns the WebDriver instance associated with the element.
 
 
-### GetInterceptingElement [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+### GetInterceptingElement [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 `GetInterceptingElement` is a private method used in [`IClick`](#iclick) which extracts the identifier of the element that is intercepting the click from an exception message.
 
@@ -43,7 +43,7 @@ The `GetDriverFromElement` method is a private method used in almost all the met
 	The method returns the identifier of the element that is intercepting the click.
 
 
-### MoveInterceptingElement [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+### MoveInterceptingElement [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 The `MoveInterceptingElement` method is an extension method that moves an intercepting element out of the way. It is used in the [`IClick`](#iclick) method to move draggable elements that are obstructing the click.
 
@@ -57,7 +57,7 @@ The `MoveInterceptingElement` method is an extension method that moves an interc
 	| ---- | ---- | ----------- |
 	| `interceptingElement` | IWebElement | The element that is obstructing the click. |
 
-### IClick [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### IClick [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ----
 
@@ -95,7 +95,7 @@ The `IClick` method is an extension method that clicks on an element. It is equi
 	element.IClick();
 	```
 
-### ScrollToTheLeft [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+### ScrollToTheLeft [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 
@@ -118,7 +118,7 @@ The `ScrollToTheLeft` method is used to scroll to the leftmost of the page withi
 	element.ScrollToTheLeft();
 	```
 
-### ScrollToTheRight [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+### ScrollToTheRight [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 
@@ -142,7 +142,7 @@ The `ScrollToTheRight` method is used to scroll to the rightmost of the page wit
 	element.ScrollToTheRight();
 	```
 
-### IGetHexColor [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### IGetHexColor [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -185,7 +185,7 @@ The `IGetHexColor` method is an extension method that retrieves the hex color of
 	element.IGetHexColor("color", "#000000");
 	```
 
-### Highlight [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### Highlight [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -213,7 +213,7 @@ The `Highlight` method is an extension method that highlights an element on the 
 	element.Highlight();
 	```
 
-### Unhighlight [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### Unhighlight [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -241,7 +241,7 @@ The `Unhighlight` method is an extension method that removes the highlight from 
 	element.Unhighlight();
 	```
 
-### ScrollTo [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### ScrollTo [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -270,7 +270,7 @@ The `ScrollTo` method is an extension method that scrolls to an element on the p
 	element.ScrollTo();
 	```
 
-### Scroll [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### Scroll [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -307,7 +307,7 @@ The `Scroll` method is an extension method that scrolls the page by a specified 
 	element.Scroll("up", 500);
 	```
 
-### DateEntry [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### DateEntry [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -337,7 +337,7 @@ The `DateEntry` method is an extension method that enters a date into a date pic
 	element.DateEntry("12/31/2022");
 	```
 
-### ClearAndEnter [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+### ClearAndEnter [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 
@@ -366,7 +366,7 @@ The `ClearAndEnter` method is an extension method that clears the existing text 
 	element.ClearAndEnter("Text to enter");
 	```
 
-### ClickLeft [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### ClickLeft [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -396,7 +396,7 @@ The `ClickLeft` method is an extension method that clicks on the left side of an
 	element.ClickLeft(20);
 	```
 
-### Hover [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### Hover [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -424,7 +424,7 @@ The `Hover` method is an extension method that hovers over an element. It is use
 	element.Hover();
 	```
 
-### CtrlClick [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### CtrlClick [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 

@@ -17,7 +17,7 @@ The locators used in the `LoginPage` class aren't disclosed here, you can go thr
 
 There are several methods in the `LoginPage` class that are used to interact with the login page. Some of the methods are private and some are public, italicized methods are private methods.
 
-#### ValidLogin [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### ValidLogin [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -44,7 +44,7 @@ This method is used to login to the application with valid credentials (HR or ES
 	1. Click the login button.
 	1. Wait until the url contains `dashboard`.
 
-#### InvalidLogin [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+#### InvalidLogin [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 
@@ -72,7 +72,7 @@ This method is used to check login to the application with invalid credentials.
 	1. Click the login button.
 	1. Wait until the error message is displayed.
 
-#### LogOut [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### LogOut [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -95,7 +95,7 @@ This method is used to logout from the application.
 	1. Click on the logout button.
 	1. Wait until the url is `Login_URl`.
 
-#### ResetPassword [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### ResetPassword [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -126,7 +126,7 @@ This private method is used in [ResetPasswordESS](#resetpasswordess) method whic
 	1. Switch to the iframe.
 	1. Ctrl + Click on the reset password button to open the reset password form in a new tab.
 
-#### ValidateMail [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### ValidateMail [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 --- 
 
@@ -146,7 +146,7 @@ This private method is used in [ResetPasswordESS](#resetpasswordess) method to v
 	1. If the button is disabled and retries haven't been exhausted, retry from step 2 again.
 	1. If the button is disabled and retries have been exhausted, throws an exception saying "Email details not found".
 
-#### ResetPasswordESS [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### ResetPasswordESS [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -182,7 +182,7 @@ This method is used to reset the password for the ESS user.
 	1. If the parameter `orgName` is provided, go to the select organization page and select the organization.
 	1. Wait until the url contains `dashboard`.
 
-#### SelectOrganization [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+#### SelectOrganization [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 

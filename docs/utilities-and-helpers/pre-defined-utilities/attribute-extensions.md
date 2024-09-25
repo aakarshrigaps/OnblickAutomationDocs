@@ -4,7 +4,7 @@
 
 ## Members
 
-### **CustomRetryAttribute** [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-tag:](../../getting-started/conventions.md/#attribute)
+### **CustomRetryAttribute** [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-tag-24:](../../getting-started/conventions.md/#attribute)
 
 ---
 
@@ -100,7 +100,7 @@ The `RetryCommand` class implements the logic for retrying a test method.
 	```
 _Note: Both examples apply the `Test` and `CustomRetry(3)` attributes to the `TestMethod`. The choice between the two styles is mostly a matter of personal preference or coding style guidelines_
 
-### **IgnoreAssertionFailuresAttribute** [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-tag:](../../getting-started/conventions.md/#attribute)
+### **IgnoreAssertionFailuresAttribute** [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-tag-24:](../../getting-started/conventions.md/#attribute)
 
 ---
 

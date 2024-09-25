@@ -16,7 +16,7 @@ The locators used in the `MaildropPage` class aren't disclosed here, you can go 
 
 There are only a few methods in the `MaildropPage` class that are used to interact with the Maildrop page.
 
-#### GetIFrame [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### GetIFrame [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 ---
 
@@ -39,7 +39,7 @@ The `GetIFrame` method is used to switch to the iframe element on the Maildrop p
 	maildropPage.GetIFrame();
 	```
 
-#### Search [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### Search [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 --- 
 

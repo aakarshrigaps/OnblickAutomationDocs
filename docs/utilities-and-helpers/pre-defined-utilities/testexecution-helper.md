@@ -6,7 +6,7 @@ Below are the members of this class:
 
 ## **Classes**
 
-### NodeDetails [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### NodeDetails [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -73,7 +73,7 @@ The following code snippet demonstrates how to use the `NodeDetails` class:
 
 ## **Methods**
 
-### ExecuteStep (without dictionary) [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+### ExecuteStep (without dictionary) [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 
@@ -123,7 +123,7 @@ ExecuteStep(() => MyClass.MyMethod(),
 			stepDetails: "Demonstrates the usage of ExecuteStep method.");
 ```
 
-### ExecuteStep [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### ExecuteStep [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -188,7 +188,7 @@ ExecuteStep(() => MyClass.MyMethod(),
 			stepInfo: stepInfo);
 ```
 
-### ExecuteStepAndSuppress [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### ExecuteStepAndSuppress [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -239,7 +239,7 @@ ExecuteStepAndSuppress(() => MyClass.MyMethod(),
 						stepDetails: "Demonstrates the usage of ExecuteStepAndSuppress method.");
 ```
 
-### RemoveStep [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### RemoveStep [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 

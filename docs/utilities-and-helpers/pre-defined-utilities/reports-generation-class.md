@@ -6,7 +6,7 @@ Below are the methods in the `ReportsGenerationClass` used to generate the repor
 
 ## Members
 
-### SetExtentTest [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### SetExtentTest [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -28,7 +28,7 @@ Sets the name for the current test instance - `ExtentTest` in the current `Exten
 	1. **Set Test Name**:
 		- Sets the name of the current test instance in the report to the provided `name`.
 
-### GetExtentTest [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetExtentTest [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -49,7 +49,7 @@ Returns the instance of the `ExtentTest`.
 		- Returns the `_test` field, which is an instance of `ExtentTest`.
 
 
-### GetExtentReport [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetExtentReport [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -69,7 +69,7 @@ Returns the instance of the `ExtentReport`.
 	1. **Return Report Instance**:
 		- Returns the `_extent` field, which is an instance of `ExtentReports`.
 
-### GetDrivers [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetDrivers [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -89,7 +89,7 @@ Returns the list of driver instances of `WebDriver` for the current test.
 	1. **Return Drivers List**:
 		- Returns the `drivers` list, which contains instances of `IWebDriver`.
 
-### GetMethodByName [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetMethodByName [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -122,7 +122,7 @@ Gets a `MethodInfo` instance of the method by its name. Used in [BeforeTest](#be
 	1. Return Null if Not Found:
 		- If no method with the specified name is found, returns `null`.
 
-### ExportFailedDetails [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### ExportFailedDetails [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -150,7 +150,7 @@ Exports the failed test details to the report and log the status accordingly whe
 			- Creates a node in the report for skipped details.
 			- Logs the reason for skipping, including the test name and exception message.
 
-### ResetSubsteps [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### ResetSubsteps [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -168,7 +168,7 @@ Resets or clears the substeps dictionary in the report.
 	1. **Clear Substep Count**:
 		- Clears the `_substepCounts` dictionary.
 
-### Flush [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### Flush [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -184,7 +184,7 @@ Writes/updates the test information of your reporter to the destination type.
 	1. **Flush Report**:
 		- Calls `_extent.Flush()` to write/update the test information of the reporter to the destination type.
 
-### SetDriver [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### SetDriver [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -214,11 +214,11 @@ Sets the driver instance of `WebDriver` for the current test and add the current
 	1. **Return Driver**:
 		- Returns the updated `_driver` instance.
 
-### SetUp [:fontawesome-solid-shield:](../../getting-started/conventions.md/#protected)
+### SetUp [:octicons-shield-24:](../../getting-started/conventions.md/#protected)
 
 ---
 
-Uses `OneTimeSetUp` [:fontawesome-solid-tag:](../../getting-started/conventions.md/#attribute) which runs this method once before all test methods in a test class. And this method adds all the necessary information of the current tests to the report.
+Uses `OneTimeSetUp` [:octicons-tag-24:](../../getting-started/conventions.md/#attribute) which runs this method once before all test methods in a test class. And this method adds all the necessary information of the current tests to the report.
 
 === "Method Signature"
 
@@ -240,11 +240,11 @@ Uses `OneTimeSetUp` [:fontawesome-solid-tag:](../../getting-started/conventions.
 	1. **Set Test Environment Information**:
 		- Adds system information to the extent report about the test environment using `Environment.Name` and `URLs.Instance.Login_URL`.
 
-### BeforeTest [:fontawesome-solid-shield:](../../getting-started/conventions.md/#protected)
+### BeforeTest [:octicons-shield-24:](../../getting-started/conventions.md/#protected)
 
 ---
 
-Uses `OneTimeSetUp` [:fontawesome-solid-tag:](../../getting-started/conventions.md/#attribute) which runs this method once before all test methods in a test class. And this method handles the creation of a new test instance in the report along with output to console saying `Started Test: <TestMethodName> at <CurrentDateTime>` or `Retrying Test(s) at <CurrentDateTime>`
+Uses `OneTimeSetUp` [:octicons-tag-24:](../../getting-started/conventions.md/#attribute) which runs this method once before all test methods in a test class. And this method handles the creation of a new test instance in the report along with output to console saying `Started Test: <TestMethodName> at <CurrentDateTime>` or `Retrying Test(s) at <CurrentDateTime>`
 
 === "Method Signature"
 
@@ -260,11 +260,11 @@ Uses `OneTimeSetUp` [:fontawesome-solid-tag:](../../getting-started/conventions.
 		- Logs the start/retry of the test with the test name and start time to the console.
 		- Assigns the test instance to the `_test` field.
 
-### AfterTest [:fontawesome-solid-shield:](../../getting-started/conventions.md/#protected)
+### AfterTest [:octicons-shield-24:](../../getting-started/conventions.md/#protected)
 
 ---
 
-Uses `OneTimeTearDown` [:fontawesome-solid-tag:](../../getting-started/conventions.md/#attribute) which runs this method once after all test methods in a test class. And this method handles the cleaning up of resources along with output to console saying `Ended Test: <TestMethodName> at <CurrentDateTime> with status <TestStatus>, ran for duration : <TestDuration>`
+Uses `OneTimeTearDown` [:octicons-tag-24:](../../getting-started/conventions.md/#attribute) which runs this method once after all test methods in a test class. And this method handles the cleaning up of resources along with output to console saying `Ended Test: <TestMethodName> at <CurrentDateTime> with status <TestStatus>, ran for duration : <TestDuration>`
 
 === "Method Signature"
 
@@ -289,7 +289,7 @@ Uses `OneTimeTearDown` [:fontawesome-solid-tag:](../../getting-started/conventio
 		- Clears the list of errors in the [`SoftAssertion`](./soft-assertion.md) instance.
 		- Logs the end of the test with the test status, duration, and end time to the console.
 
-### Capture [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### Capture [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -321,7 +321,7 @@ Captures the screenshot of the current page and adds it to the report in base64 
 	1. **Return Screenshot Path**:
 		- Returns the path of the saved screenshot.
 
-### LogReport [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+### LogReport [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 
@@ -343,7 +343,7 @@ Logs the message to the report with status Pass. Will be deprecated in a future 
 	1. **Log Message**:
 		- Logs the message to the report with status `Pass`.
 
-### LogInfo [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+### LogInfo [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 
@@ -366,7 +366,7 @@ Logs the message to the report with status Info. Will be deprecated a in a futur
 	1. **Log Message**:
 		- Logs the message to the report with status `Info`.
 
-### LogError [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### LogError [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -395,7 +395,7 @@ Logs the error messages from [SoftAssertion](./soft-assertion.md) to the console
 			- Creates a new node in `ExtentTest` instance with the name "Assertion Failures".
 			- Attaches the `MarkupHelper` to the "Assertion Failures" node and shows the failures in `Status.Info`.
 
-### GetOrCreateNode [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+### GetOrCreateNode [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -429,7 +429,7 @@ Retrieves an existing `ExtentTest` node by name or creates a new one as a child 
 	1. **Return New Node**:
 		- Returns the newly created `ExtentTest` node.
 
-### LogSubstep [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### LogSubstep [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -465,7 +465,7 @@ The `LogSubstep` method logs details about a substep in a test to the specified 
 
 This method provides systematic logging of substeps, ensuring each is recorded with specific details and an optional screenshot on failure.
 
-### GetReportPath [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetReportPath [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -500,7 +500,7 @@ The `GetReportPath` method generates a path for a report to be saved, ensuring n
 	1. **Return Report Path**:
 		- Returns the constructed report path.
 
-### AssignAuthor [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### AssignAuthor [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -522,7 +522,7 @@ The `AssignAuthor` method assigns the author name to the current test case.
 	1. **Assign Author**:
 		- Assigns the provided author name to the current test using `_test.AssignAuthor(authorName)`.
 
-### SwitchBrowser [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### SwitchBrowser [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -544,7 +544,7 @@ The `SwitchBrowser` method switches the browser window to the specified window h
 	1. **Switch Browser**:
 		- Uses `driver.SwitchTo().Window(driver.CurrentWindowHandle)` to switch to the specified browser window.
 
-### GetNetworkCalls [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetNetworkCalls [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -575,7 +575,7 @@ The `GetNetworkCalls` method retrieves and processes browser log entries, loggin
 
 _Gets only failed network calls and is invoked when a test has failed._
 
-### GetAllNetworkCalls [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### GetAllNetworkCalls [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 

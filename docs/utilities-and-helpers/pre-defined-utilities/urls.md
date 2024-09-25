@@ -6,7 +6,7 @@ The `URLs` class is a singleton utility that constructs and provides access to v
 
 ---
 
-=== "URLs.cs [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)"
+=== "URLs.cs [:octicons-globe-24:](../../getting-started/conventions.md/#public)"
 ```csharp
 public class URLs
 ```

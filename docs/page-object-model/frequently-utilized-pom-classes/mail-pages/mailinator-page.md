@@ -16,7 +16,7 @@ The locators used in the `MailinatorPage` class aren't disclosed here, you can g
 
 There are several methods in the `MailinatorPage` class that are used to interact with the Mailinator page. We shall only see the methods that are used often and not every method.
 
-#### GetRandomMailinatorDomain [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### GetRandomMailinatorDomain [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 ---
 
@@ -61,7 +61,7 @@ The `GetRandomMailinatorDomain` method generates a random email domain from a pr
     };
 	```
 
-#### GetIFrame [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### GetIFrame [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 ---
 
@@ -84,7 +84,7 @@ The `GetIFrame` method is used to switch to the iframe containing the email cont
 	mailinatorPage.GetIFrame();
 	```
 
-#### Search [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### Search [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 ---
 

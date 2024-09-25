@@ -16,7 +16,7 @@ The locators used in the `SettingsPage` class aren't disclosed here, you can go 
 
 There are a few methods in the `SettingsPage` class that are used to interact with the settings page. Some of the methods are private and some are public, italicized methods are private methods.
 
-#### CheckAliases [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+#### CheckAliases [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 
@@ -53,7 +53,7 @@ The `CheckAliases` method is used to navigate to the company profile page, check
 	settingsPage.CheckAliases("Alias1, Alias2, Alias3");
 	```
 
-#### ValidateShowOrHideBtn [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### ValidateShowOrHideBtn [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -103,7 +103,7 @@ The `ValidateShowOrHideBtn` method checks the functionality of "show" and "hide"
 		settingsPage.ValidateShowOrHideBtn("Confirm Password");
 		```
 
-#### ChangePassword [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### ChangePassword [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 --- 
 

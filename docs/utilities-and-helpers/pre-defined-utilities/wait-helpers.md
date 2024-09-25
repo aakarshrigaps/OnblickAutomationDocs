@@ -4,7 +4,7 @@ The `WaitHelpers` class provides various methods for waiting for certain conditi
 
 ## **Methods**
 
-### ImplicitWaitHandler [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+### ImplicitWaitHandler [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -43,7 +43,7 @@ This method is a private method which is used to wrap around all actions interna
 	});
 	```
 
-### WaitForElementToBeVisible [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForElementToBeVisible [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -60,7 +60,7 @@ Waits for an element to be visible on the page.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `element` | By | The locator for the element to wait for. |
-	| `time` | int | The maximum time to wait for the element to be visible. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for the element to be visible. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -74,7 +74,7 @@ Waits for an element to be visible on the page.
 	```csharp
 	WaitForElementToBeVisible(driver, By.Id("elementId")); //defaults to 60 seconds
 	```
-### WaitForInvisibilityOfElement [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+### WaitForInvisibilityOfElement [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 
@@ -91,7 +91,7 @@ Waits for an element to be invisible on the page.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `element` | By | The locator for the element to wait for. |
-	| `time` | int | The maximum time to wait for the element to be invisible. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for the element to be invisible. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -108,7 +108,7 @@ Waits for an element to be invisible on the page.
 
 _Note:This method will be removed in a future version, use [WaitForInvisibilityOfElements](#waitforinvisibilityofelements) instead_
 
-### WaitForElementToBeClickable [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForElementToBeClickable [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -125,7 +125,7 @@ Waits for an element to be clickable (checks if element is enabled) on the page.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `element` | By | The locator for the element to wait for. |
-	| `time` | int | The maximum time to wait for the element to be clickable. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for the element to be clickable. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -140,7 +140,7 @@ Waits for an element to be clickable (checks if element is enabled) on the page.
 	WaitForElementToBeClickable(driver, By.Id("elementId")); //defaults to 60 seconds
 	```
 
-### WaitForElementToExist [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForElementToExist [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -157,7 +157,7 @@ Waits for an element to exist on the page.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `element` | By | The locator for the element to wait for. |
-	| `time` | int | The maximum time to wait for the element to exist. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for the element to exist. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -172,7 +172,7 @@ Waits for an element to exist on the page.
 	WaitForElementToExist(driver, By.Id("elementId")); //defaults to 60 seconds
 	```
 
-### WaitForInvisibilityOfElements [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForInvisibilityOfElements [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -189,7 +189,7 @@ Waits for all elements matching the locator to be invisible on the page.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `element` | By | The locator for the elements to wait for. |
-	| `t` | int | The maximum time to wait for the elements to be invisible. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 80 seconds. |
+	| `t` | int | The maximum time to wait for the elements to be invisible. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 80 seconds. |
 
 #### Usage
 
@@ -204,7 +204,7 @@ Waits for all elements matching the locator to be invisible on the page.
 	WaitForInvisibilityOfElements(driver, By.ClassName("elementClass")); //defaults to 80 seconds
 	```
 
-### WaitForUrlToContain [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForUrlToContain [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -221,7 +221,7 @@ Waits for the URL to contain the specified string.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `url` | string | The string to wait for in the URL. |
-	| `time` | int | The maximum time to wait for the URL to contain the string. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for the URL to contain the string. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -236,7 +236,7 @@ Waits for the URL to contain the specified string.
 	WaitForUrlToContain(driver, "example.com"); //defaults to 60 seconds
 	```
 
-### WaitForNewTab [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForNewTab [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -253,7 +253,7 @@ Waits for a new tab to be opened.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `tabCount` | int | Initial number of tabs before performing an action that presumably opens a new tab. |
-	| `time` | int | The maximum time to wait for a new tab to be opened. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for a new tab to be opened. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -268,7 +268,7 @@ Waits for a new tab to be opened.
 	WaitForNewTab(driver, 1); //defaults to 60 seconds
 	```
 
-### WaitForTabClose [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForTabClose [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -285,7 +285,7 @@ Waits for a tab to be closed.
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `tabCount` | int | Initial number of tabs before performing an action that presumably closes a tab. |
-	| `time` | int | The maximum time to wait for a tab to be closed. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for a tab to be closed. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -301,7 +301,7 @@ Waits for a tab to be closed.
 	WaitForTabClose(driver, 2); //defaults to 60 seconds
 	```
 
-### WaitForFileDownload [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForFileDownload [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -319,7 +319,7 @@ Waits for a file to be downloaded.
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `downloadPath` | string | The path where the file is expected to be downloaded. |
 	| `initialFileCount` | int | Initial number of files in the download path before performing an action that presumably downloads a file. |
-	| `time` | int | The maximum time to wait for a file to be downloaded. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for a file to be downloaded. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -335,7 +335,7 @@ Waits for a file to be downloaded.
 	WaitForFileDownload(driver, "C:\\Downloads", 0); //defaults to 60 seconds
 	```
 
-### WaitForAnyElementToBeVisible [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+### WaitForAnyElementToBeVisible [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -353,7 +353,7 @@ _Note: Used only when there are multiple matching elements with the given locato
 	| ---- | ---- | ----------- |
 	| `driver` | IWebDriver | The WebDriver instance to use to search for the element. |
 	| `element` | By | The locator for the element to wait for. |
-	| `time` | int | The maximum time to wait for the element to be visible. [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default) = 60 seconds. |
+	| `time` | int | The maximum time to wait for the element to be visible. [:octicons-goal-24:](../../getting-started/conventions.md/#default) = 60 seconds. |
 
 #### Usage
 
@@ -369,7 +369,7 @@ _Note: Used only when there are multiple matching elements with the given locato
 	WaitForAnyElementToBeVisible(driver, By.ClassName("elementClass")); //defaults to 60 seconds
 	```
 
-### WaitForNoPendingRequests [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+### WaitForNoPendingRequests [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 

@@ -8,7 +8,7 @@ The `OnboardPage` contains all the classes, locators and methods necessary to in
 
 The `OnboardPage` class contains the following classes:
 
-#### OnboardDetails [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### OnboardDetails [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -129,7 +129,7 @@ The `OnboardDetails` class is designed to hold and manage employee onboarding in
     );
     ```
 
-#### OnboardDetailsMap [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### OnboardDetailsMap [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -227,7 +227,7 @@ The `OnboardDetailsMap` class is a mapping configuration for the `OnboardDetails
 	```
     _Note: This is only an example implementation on how to use it. This `ClassMap` is already used in [`BulkOnboard`](#bulkonboard) functionality_.
 
-#### TaxTermsConverter [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### TaxTermsConverter [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 The `TaxTermsConverter` class is a custom type converter for the `TaxTerms` property of the `OnboardDetails` class. It converts the enum value of tax terms to a string representation.
 
@@ -272,7 +272,7 @@ The locators used in the `OnboardPage` class aren't disclosed here, you can go t
 
 There are several methods in the `OnboardPage` class that are used to interact with the Onboard page. Some of the methods are private and some are public, italicized methods are private methods.
 
-#### SingleOnboard [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### SingleOnboard [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -317,7 +317,7 @@ The `SingleOnboard` method is designed to onboard a single employee using the de
 
     ```
 
-#### DownloadMultiOnboardCsv [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### DownloadMultiOnboardCsv [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 --- 
 
@@ -350,7 +350,7 @@ The `DownloadMultiOnboardCsv` method navigates to the bulk onboarding URL, downl
     Console.WriteLine($"Downloaded CSV path: {downloadedCsvPath}");
     ```
 
-#### WriteOnboardDetailsToCsv [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### WriteOnboardDetailsToCsv [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -400,7 +400,7 @@ The `WriteOnboardDetailsToCsv` method writes a list of `OnboardDetails` objects 
     Console.WriteLine($"CSV file written to: {resultFilePath}");
     ```
 
-#### ValidateImportedData [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### ValidateImportedData [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -448,7 +448,7 @@ The `ValidateImportedData` method validates the details of onboarded candidates 
     ValidateImportedData(onboardDetailsList, "OnboardDetailsValidation");
     ```
 
-#### SkipImport [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### SkipImport [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 --- 
 
@@ -501,7 +501,7 @@ The `SkipImport` method processes a list of onboarded candidate details, identif
     onboardDetailsList = SkipImport(onboardDetailsList, "SkipImportNode");
     ```
 
-#### TrySkipAndValidate [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### TrySkipAndValidate [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -533,7 +533,7 @@ The `TrySkipAndValidate` method processes a list of `OnboardDetails` by first sk
 	1. **Return List**:
 		- Returns the updated list of onboard details after skipping and validation.
 
-#### UploadCsv [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### UploadCsv [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -573,7 +573,7 @@ The `UploadCsv` method is responsible for uploading a CSV file containing onboar
     UploadCsv(csvFilePath, "Upload Csv");
     ```
 
-#### CancelImport [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### CancelImport [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -596,7 +596,7 @@ The `CancelImport` method cancels the import process of a CSV file containing on
     1. Waits for the OnBlick logo to become invisible, indicating that the cancellation is complete.
 
 
-#### OnboardCandidates [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### OnboardCandidates [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -618,7 +618,7 @@ The `OnboardCandidates` method is used to onboard a selected set of candidates i
 		- Waits for the success popup to appear, indicating that the onboarding process has been initiated.
 
 
-#### EditImportedData [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### EditImportedData [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -675,7 +675,7 @@ The `EditImportedData` method is used to edit the details of an imported candida
 	onboardDetailsList = EditImportedData(onboardDetailsList, "EditImportedDataNode");
 	```
 
-#### ResolveErrors [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### ResolveErrors [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -718,7 +718,7 @@ The ResolveErrors method aims to handle errors in the onboarding process by clic
     onboardDetailsList = ResolveErrors(onboardDetailsList, "ResolveErrorsNode");
     ```
 
-#### BulkOnboard [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### BulkOnboard [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 --- 
 
@@ -763,7 +763,7 @@ The `BulkOnboard` method is used to perform bulk onboarding of candidates by upl
 	onboardDetailsList = BulkOnboard(onboardDetailsList, "BulkOnboardNode");
 	```
 
-#### BulkOnboardNegative [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+#### BulkOnboardNegative [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 

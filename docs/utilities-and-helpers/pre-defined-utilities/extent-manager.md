@@ -3,7 +3,7 @@
 The `ExtentManager` class is responsible for managing the creation and configuration of the Extent Reports instance used for generating test reports. It ensures that the reporting setup is initialized only once and provides access to the configured `ExtentReports` instance.
 
 
-## **Class Definition [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)**
+## **Class Definition [:octicons-globe-24:](../../getting-started/conventions.md/#public)**
 
 ---
 
@@ -21,7 +21,7 @@ public class ExtentManager
 
 ---
 
-=== "GetInstance [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)"
+=== "GetInstance [:octicons-globe-24:](../../getting-started/conventions.md/#public)"
 
 	```csharp
 	public static ExtentReports GetInstance()

@@ -10,7 +10,7 @@ The `WorkforcePage` class contains all the enums, locators and methods necessary
 
 The `WorkforcePage` class contains the following enums:
 
-#### EmployeeType [:fontawesome-solid-list:](../../getting-started/conventions.md/#enum)
+#### EmployeeType [:octicons-sliders-24:](../../getting-started/conventions.md/#enum)
 
 The `EmployeeType` enumeration represents different states or categories of an employee within the system. This enum is used to classify and manage employees based on their current employment status.
 
@@ -18,7 +18,7 @@ The `EmployeeType` enumeration represents different states or categories of an e
 
 	| Member | Description |
 	| ------ | ----------- |
-	| [:fontawesome-solid-sliders:](../../getting-started/conventions.md/#default)`Active` | Represents an active employee. |
+	| [:octicons-goal-24:](../../getting-started/conventions.md/#default)`Active` | Represents an active employee. |
 	| `NewHire` | Represents a new hire employee. |
 	| `Terminated` | Represents a terminated employee. |
 
@@ -44,7 +44,7 @@ The locators used in the `WorkforcePage` class aren't disclosed here, you can go
 
 The `WorkforcePage` class contains several methods that are used to interact with the Workforce page. Some of the methods are private and some are public, italicized methods are private methods.
 
-#### SearchEmployee [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### SearchEmployee [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -79,7 +79,7 @@ The `SearchEmployee` method searches for an employee in the workforce based on t
 	workforcePage.SearchEmployee("john.doe@example.com", "John", EmployeeType.NewHire, "Search Workforce");
 	```
 
-#### SearchEmployee [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+#### SearchEmployee [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 
@@ -111,7 +111,7 @@ The `SearchEmployee` method searches for an employee in the workforce based on t
 	workforcePage.SearchEmployee("john.doe@example.com", EmployeeType.NewHire, "Search Employee");
 	```
 
-#### GoToEmployeeProfile [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### GoToEmployeeProfile [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -146,7 +146,7 @@ The `GotoEmployeeProfile` method navigates to an employee's profile based on the
 	workforcePage.GotoEmployeeProfile(onboardDetails, EmployeeType.Active, "Navigate to Profile");
 	```
 
-#### Delete [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### Delete [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -174,7 +174,7 @@ The `Delete` method handles the deletion of records based on the provided `Emplo
 
 	This method is used internally in the `DeleteEmployee` and `DeleteEmployees` methods. This method is only intended for those 2 methods, **DO NOT** use it anywhere else.
 
-#### DeleteEmployee [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### DeleteEmployee [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -213,7 +213,7 @@ The `DeleteEmployee` method searches for an employee by email and first name and
 	workforcePage.DeleteEmployee("john.doe@example.com", "John", EmployeeType.Terminated, "Delete");
 	```
 
-#### DeleteEmployees [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-ban:](../../getting-started/conventions.md/#deprecated)
+#### DeleteEmployees [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:octicons-skip-24:](../../getting-started/conventions.md/#deprecated)
 
 ---
 
@@ -244,7 +244,7 @@ The DeleteEmployees method searches for multiple employee records by email and f
 
 	This method is used internally in the `TryDeleteEmployee` method. It is not intended for use outside of this context.
 
-#### TryDeleteEmployee [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+#### TryDeleteEmployee [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 
@@ -279,7 +279,7 @@ The `TryDeleteEmployee` method attempts to delete an employee by email and first
 	workforcePage.TryDeleteEmployee("john.doe@example.com", "John", "Node1");
 	```
 
-#### DeleteI9 [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### DeleteI9 [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -308,7 +308,7 @@ The `DeleteI9` method is used to delete an I-9 form for an employee specified by
 
 	This method is designed for and used in only the [`DeleteEmployee`](#deleteemployee) method. It should not be used outside of this context.
 
-#### EnableESS [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### EnableESS [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -342,7 +342,7 @@ The `EnableEss` method is used to enable the Employee Self-Service (ESS) feature
 	workforcePage.EnableEss("Enable ESS");
 	``
 
-#### DisableESS [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### DisableESS [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 
@@ -375,7 +375,7 @@ The `DisableEss` method is used to disable the Employee Self-Service (ESS) featu
 	WorkforcePage workforcePage = new WorkforcePage();
 	workforcePage.DisableEss("Disable ESS");
 	```
-#### GetTextFromColumn [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### GetTextFromColumn [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -406,7 +406,7 @@ The `GetTextFromColumn` method retrieves the text content of the first cell in a
 
 	This method is used internally in the `ValidateCandidateDetails` method to extract specific details from the candidate profile.
 
-#### ValidateCandidateDetails [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+#### ValidateCandidateDetails [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 
@@ -443,7 +443,7 @@ The `ValidateCandidateDetails`method verifies that the details of a candidate di
 	workforcePage.ValidateCandidateDetails(onboardDetails, "Validate Candidate Details");
 	```
 
-#### ManageRole [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public) [:fontawesome-solid-flask:](../../getting-started/conventions.md/#experimental)
+#### ManageRole [:octicons-globe-24:](../../getting-started/conventions.md/#public) [:material-flask:](../../getting-started/conventions.md/#experimental)
 
 ---
 
@@ -478,7 +478,7 @@ The `ManageRole` method is designed to search for an employee using their email 
 	workforcePage.ManageRole("john.doe@example.com", "John", "Manage Employee Role");
 	```
 
-#### AddCandidateToSupervisor [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### AddCandidateToSupervisor [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -511,7 +511,7 @@ The `AddCandidateToSupervisor` method adds a candidate to either the supervisor'
 
 	This method is used internally in the [`ManageSupervision`](#managesupervision) method to add candidates to a supervisor's list of reporting employees or assigned trainees.
 
-#### AddSupervisorInReportingTo [:fontawesome-solid-lock:](../../getting-started/conventions.md/#private)
+#### AddSupervisorInReportingTo [:octicons-lock-16:](../../getting-started/conventions.md/#private)
 
 ---
 
@@ -572,7 +572,7 @@ The `ClickEllipsisUnderBanner` method attempts to click an ellipsis (three-dot m
 	workforcePage.ClickEllipsisUnderBanner();
 	```
 
-#### ManageSupervision [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)
+#### ManageSupervision [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 

@@ -6,7 +6,7 @@ The `LoginCreds` class is a singleton utility designed to manage and provide acc
 
 ---
 
-=== "LoginCreds.cs [:fontawesome-solid-globe:](../../getting-started/conventions.md/#public)"
+=== "LoginCreds.cs [:octicons-globe-24:](../../getting-started/conventions.md/#public)"
     ```csharp
     public class LoginCreds
     ```

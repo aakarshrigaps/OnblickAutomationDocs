@@ -16,7 +16,7 @@ The locators used in the `MailhogPage` class aren't disclosed here, you can go t
 
 There are several methods in the `MailhogPage` class that are used to interact with the Mailhog page. We shall only see the methods that are used often and not every method.
 
-#### GetShowHeaders [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### GetShowHeaders [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 ---
 
@@ -40,7 +40,7 @@ The `GetShowHeaders` method is used to scroll to and click on an element identif
 	mailhogPage.GetShowHeaders();
 	```
 
-#### GetHideHeaders [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### GetHideHeaders [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 ---
 
@@ -64,7 +64,7 @@ The `GetHideHeaders` method is used to scroll to and click on an element identif
 	mailhogPage.GetHideHeaders();
 	```
 
-#### GetIFrame [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### GetIFrame [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 ---
 
@@ -89,7 +89,7 @@ The `GetIFrame` method is used to interact with and switch to an `iframe` inside
 	mailhogPage.GetIFrame();
 	```
 
-#### Search [:fontawesome-solid-globe:](../../../getting-started/conventions.md/#public)
+#### Search [:octicons-globe-24:](../../../getting-started/conventions.md/#public)
 
 --- 
 
