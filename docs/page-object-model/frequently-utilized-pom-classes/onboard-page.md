@@ -57,24 +57,24 @@ The `OnboardDetails` class is designed to hold and manage employee onboarding in
     | `email` | `string` | The email address of the employee. |
     | `phone` | `string` | The phone number of the employee. |
     | `employmentType` | `EmploymentType?` | The type of employment (e.g., full-time, part-time). |
-    | `employeeID` | `string` | The unique identifier for the employee. Default is `null`. |
-    | `dob` | ``string`` | The date of birth of the employee. Default is ``null``. |
-    | `gender` (optional) | `string` | The gender of the employee. Default is ``null``. |
-    | `address1` (optional) | `string` | The primary address line of the employee. Default is ``null``. |
-    | `address2` (optional) | `string` | The secondary address line of the employee. Default is `null`. |
-    | `city` (optional) | `string` | The city of the employee's address. Default is `null`. |
-    | `state` (optional) | `string` | The state of the employee's address. Default is `null`. |
-    | `zip` (optional) | `string` | The ZIP code of the employee's address. Default is `null`. |
-    | `startDate` (optional) | `string` | The start date of employment or contract. Default is `null`. |
-    | `workAuthType` (optional) | `string` | The type of work authorization the employee has. Default is `null`. |
-    | `isBilling` (optional) | `bool?` | Indicates if the employee is billable. Default is `null`. |
-    | `wageRate` (optional) | `string` | The wage rate of the employee. Default is `null`. |
-    | `wageFrom` (optional) | `string` | The minimum wage rate of the employee. Default is `null`. |
-    | `wageTo` (optional) | `string` | The maximum wage rate of the employee. Default is `null`. |
-    | `wageCycle` (optional) | `string` | The wage cycle (e.g., weekly, bi-weekly). Default is `null`. |
-    | `department` (optional) | `string` | The department to which the employee belongs. Default is `null`. |
-    | `reportingTo` (optional) | `string` | The supervisor or manager the employee reports to. Default is `null`. |
-    | `isTrainee` (optional) | `bool?` | Indicates if the employee is a trainee. Default is `null`. |
+    | `employeeID` | `string` | The unique identifier for the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `dob` | ``string`` | The date of birth of the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is ``null``. |
+    | `gender` (optional) | `string` | The gender of the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is ``null``. |
+    | `address1` (optional) | `string` | The primary address line of the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is ``null``. |
+    | `address2` (optional) | `string` | The secondary address line of the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `city` (optional) | `string` | The city of the employee's address. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `state` (optional) | `string` | The state of the employee's address. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `zip` (optional) | `string` | The ZIP code of the employee's address. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `startDate` (optional) | `string` | The start date of employment or contract. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `workAuthType` (optional) | `string` | The type of work authorization the employee has. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `isBilling` (optional) | `bool?` | Indicates if the employee is billable. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `wageRate` (optional) | `string` | The wage rate of the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `wageFrom` (optional) | `string` | The minimum wage rate of the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `wageTo` (optional) | `string` | The maximum wage rate of the employee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `wageCycle` (optional) | `string` | The wage cycle (e.g., weekly, bi-weekly). [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `department` (optional) | `string` | The department to which the employee belongs. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `reportingTo` (optional) | `string` | The supervisor or manager the employee reports to. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+    | `isTrainee` (optional) | `bool?` | Indicates if the employee is a trainee. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Properties"
 
@@ -288,7 +288,7 @@ The `SingleOnboard` method is designed to onboard a single employee using the de
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `onboardDetails` | `OnboardDetails` | The employee details to onboard. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
 
@@ -332,7 +332,7 @@ The `DownloadMultiOnboardCsv` method navigates to the bulk onboarding URL, downl
 
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
     
@@ -367,7 +367,7 @@ The `WriteOnboardDetailsToCsv` method writes a list of `OnboardDetails` objects 
 	| ---- | ---- | ----------- |
 	| `filePath` | `string` | The path of the CSV file to write the onboard details to. |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of employee details to write to the CSV file. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
 
@@ -417,7 +417,7 @@ The `ValidateImportedData` method validates the details of onboarded candidates 
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of employee details to validate. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
 
@@ -464,7 +464,7 @@ The `SkipImport` method processes a list of onboarded candidate details, identif
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of employee details to validate. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Returns"
 
@@ -518,7 +518,7 @@ The `TrySkipAndValidate` method processes a list of `OnboardDetails` by first sk
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of employee details to validate. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Returns"
 
@@ -550,7 +550,7 @@ The `UploadCsv` method is responsible for uploading a CSV file containing onboar
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `filePath` | `string` | The path of the CSV file to upload. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
 
@@ -635,7 +635,7 @@ The `EditImportedData` method is used to edit the details of an imported candida
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of employee details to validate. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Returns"
 
@@ -692,7 +692,7 @@ The ResolveErrors method aims to handle errors in the onboarding process by clic
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of employee details to validate. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Returns"
 
@@ -735,7 +735,7 @@ The `BulkOnboard` method is used to perform bulk onboarding of candidates by upl
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of employee details to validate. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Returns"
 
@@ -781,7 +781,7 @@ The `BulkOnboardNegative` method handles the process of bulk onboarding candidat
 	| ---- | ---- | ----------- |
 	| `onboardDetailsListIncomplete` | `List<OnboardDetails>` | The list of incomplete employee details to validate. |
 	| `onboardDetailsList` | `List<OnboardDetails>` | The list of complete employee details to validate. |
-	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. Default is `null`. |
+	| `nodeName` (optional) | `string` | The name of the node to be shown in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Returns"
 

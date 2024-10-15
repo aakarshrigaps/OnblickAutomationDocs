@@ -446,10 +446,10 @@ The `LogSubstep` method logs details about a substep in a test to the specified 
 	| ---- | ---- | ----------- |
 	| `nodeName` | `string` | The name of the substep node. |
 	| `stepDetails` | `string` | A description of the substep. |
-	| `stepStatus` | `Status?` | The status of the substep. Default is `Status.Pass`. |
+	| `stepStatus` | `Status?` | The status of the substep. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `Status.Pass`. |
 	| `ssTitle` | `string` | The title for the screenshot. |
-	| `driver` | `IWebDriver` | The web driver instance. Default is `_driver`. |
-	| `parentNodeName` | `string` | The name of the parent node. Default is `_test`. |
+	| `driver` | `IWebDriver` | The web driver instance. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `_driver`. |
+	| `parentNodeName` | `string` | The name of the parent node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `_test`. |
 
 === "Functionality"
 
@@ -559,7 +559,7 @@ The `GetNetworkCalls` method retrieves and processes browser log entries, loggin
 
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
-	| `nodeName` | `string` | The name of the node for logging substeps. Default is `null`. |
+	| `nodeName` | `string` | The name of the node for logging substeps. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
 
@@ -590,7 +590,7 @@ The `GetAllNetworkCalls` method retrieves and processes all browser log entries 
 
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
-	| `nodeName` | `string` | The name of the node for logging substeps. Default is `null`. |
+	| `nodeName` | `string` | The name of the node for logging substeps. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
 

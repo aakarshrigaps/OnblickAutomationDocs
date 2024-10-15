@@ -23,7 +23,7 @@ After cloning the repository, you are ready to proceed with the setup.
 
 ---
 
-The environment in which tests run can be configured through the `Environment.cs` file. By default, the environment is set to `demo`.
+The environment in which tests run can be configured through the `Environment.cs` file. Environment [:octicons-goal-24:](../getting-started/conventions.md/#default) is `demo`.
 
 ### Updating the Environment Configuration
 

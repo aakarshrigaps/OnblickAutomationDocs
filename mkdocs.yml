@@ -59,7 +59,7 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
-    - navigation.instant.prefetch
+    - navigation.sections
     - navigation.top
     - navigation.footer
     - content.code.copy
@@ -122,10 +122,10 @@ nav:
           - OnboardPage: page-object-model/frequently-utilized-pom-classes/onboard-page.md
           - SettingsPage: page-object-model/frequently-utilized-pom-classes/settings-page.md
           - WorkforcePage: page-object-model/frequently-utilized-pom-classes/workforce-page.md
-          - Mail Pages:
-              - MailhogPage: page-object-model/frequently-utilized-pom-classes/mail-pages/mailhog-page.md
-              - MailinatorPage: page-object-model/frequently-utilized-pom-classes/mail-pages/mailinator-page.md
-              - MaildropPage: page-object-model/frequently-utilized-pom-classes/mail-pages/maildrop-page.md
+      - Mail Pages:
+          - MailhogPage: page-object-model/frequently-utilized-pom-classes/mail-pages/mailhog-page.md
+          - MailinatorPage: page-object-model/frequently-utilized-pom-classes/mail-pages/mailinator-page.md
+          - MaildropPage: page-object-model/frequently-utilized-pom-classes/mail-pages/maildrop-page.md
   - Debugging and Troubleshooting:
       - Debugging: debugging-and-troubleshooting/debugging.md
       - Troubleshooting: debugging-and-troubleshooting/troubleshooting.md

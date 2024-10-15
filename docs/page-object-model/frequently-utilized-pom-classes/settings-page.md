@@ -121,7 +121,7 @@ The ChangePassword method automates the process of changing a user's password. I
 	| ---- | ---- | ----------- |
 	| `oldPassword` | `string` | The current password of the user. |
 	| `newPassword` | `string` | The new password to be set for the user. |
-	| `nodeName` | `string` | The name of the node to be shown on the Extent report. Default is `null` |
+	| `nodeName` | `string` | The name of the node to be shown on the Extent report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null` |
 
 === "Functionality"
 

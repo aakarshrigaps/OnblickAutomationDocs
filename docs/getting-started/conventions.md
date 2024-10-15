@@ -1,12 +1,12 @@
 # Naming Conventions
 
-## General Guidelines
+## **General Guidelines**
 
 -  Use meaningful and descriptive names.
 -  Follow camelCase for variables and fields.
 -  Follow PascalCase for properties, classes, methods and namespaces.
 
-## Symbols
+## **Symbols**
 
 This documentation uses some symbols for illustration purposes. Before you read on, please make sure you've made yourself familiar with the following list of conventions:
 

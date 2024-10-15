@@ -44,10 +44,10 @@ Asserts that two objects are equal. If the assertion fails, logs the failure to 
 	| ---- | ---- | ----------- |
 	| `expected` | `T` | The expected value. |
 	| `actual` | `T` | The actual value. |
-	| `message` | `string` | The message to log to the report if the assertion passes or fails. Defaults to `null`. |
-	| `nodeName` | `string` | The name of the node for logging substeps. Defaults to `null`. |
-	| `driver` | `IWebDriver` | The web driver instance. Defaults to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
-	| `parentNodeName` | `string` | The name of the parent node. Defaults to `_test`. Used in logging substeps. |
+	| `message` | `string` | The message to log to the report if the assertion passes or fails. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `nodeName` | `string` | The name of the node for logging substeps. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `driver` | `IWebDriver` | The web driver instance. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
+	| `parentNodeName` | `string` | The name of the parent node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_test`. Used in logging substeps. |
 
 === "Functionality"
 
@@ -73,10 +73,10 @@ Asserts that two objects are not equal. If the assertion fails, logs the failure
 	| ---- | ---- | ----------- |
 	| `notExpected` | `T` | The value that is not expected. |
 	| `actual` | `T` | The actual value. |
-	| `message` | `string` | The message to log to the report if the assertion passes or fails. Defaults to `null`. |
-	| `nodeName` | `string` | The name of the node for logging substeps. Defaults to `null`. |
-	| `driver` | `IWebDriver` | The web driver instance. Defaults to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
-	| `parentNodeName` | `string` | The name of the parent node. Defaults to `_test`. Used in logging substeps. |
+	| `message` | `string` | The message to log to the report if the assertion passes or fails. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `nodeName` | `string` | The name of the node for logging substeps. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `driver` | `IWebDriver` | The web driver instance. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
+	| `parentNodeName` | `string` | The name of the parent node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_test`. Used in logging substeps. |
 
 === "Functionality"
 
@@ -102,10 +102,10 @@ Asserts that a collection contains a specified element. If the assertion fails, 
 	| ---- | ---- | ----------- |
 	| `expected` | `T[]` | Array of expected values. |
 	| `actual` | `T` | The actual value. |
-	| `message` | `string` | The message to log to the report if the assertion passes or fails. Defaults to `null`. |
-	| `nodeName` | `string` | The name of the node for logging substeps. Defaults to `null`. |
-	| `driver` | `IWebDriver` | The web driver instance. Defaults to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
-	| `parentNodeName` | `string` | The name of the parent node. Defaults to `_test`. Used in logging substeps. |
+	| `message` | `string` | The message to log to the report if the assertion passes or fails. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `nodeName` | `string` | The name of the node for logging substeps. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `driver` | `IWebDriver` | The web driver instance. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
+	| `parentNodeName` | `string` | The name of the parent node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_test`. Used in logging substeps. |
 
 === "Functionality"
 
@@ -129,10 +129,10 @@ Asserts that a condition is `true`. If the assertion fails, logs the failure to 
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `condition` | `bool` | The condition to evaluate. |
-	| `message` | `string` | The message to log to the report if the assertion passes or fails. Defaults to `null`. |
-	| `nodeName` | `string` | The name of the node for logging substeps. Defaults to `null`. |
-	| `driver` | `IWebDriver` | The web driver instance. Defaults to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
-	| `parentNodeName` | `string` | The name of the parent node. Defaults to `_test`. Used in logging substeps. |
+	| `message` | `string` | The message to log to the report if the assertion passes or fails. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `nodeName` | `string` | The name of the node for logging substeps. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `driver` | `IWebDriver` | The web driver instance. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
+	| `parentNodeName` | `string` | The name of the parent node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_test`. Used in logging substeps. |
 
 === "Functionality"
 
@@ -157,10 +157,10 @@ Asserts that a condition is `false`. If the assertion fails, logs the failure to
 	| Name | Type | Description |
 	| ---- | ---- | ----------- |
 	| `condition` | `bool` | The condition to evaluate. |
-	| `message` | `string` | The message to log to the report if the assertion passes or fails. Defaults to `null`. |
-	| `nodeName` | `string` | The name of the node for logging substeps. Defaults to `null`. |
-	| `driver` | `IWebDriver` | The web driver instance. Defaults to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
-	| `parentNodeName` | `string` | The name of the parent node. Defaults to `_test`. Used in logging substeps. |
+	| `message` | `string` | The message to log to the report if the assertion passes or fails. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `nodeName` | `string` | The name of the node for logging substeps. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `null`. |
+	| `driver` | `IWebDriver` | The web driver instance. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_driver`. Used in taking screenshot within the [`LogSubstep`](./reports-generation-class.md/#logsubstep) method invocation. |
+	| `parentNodeName` | `string` | The name of the parent node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) to `_test`. Used in logging substeps. |
 
 === "Functionality"
 

@@ -31,9 +31,9 @@ Represents the details of a node, including its name, step details, parent node 
 	| --- | --- | --- |
 	| `nodeName` | string | The name of the node. |
 	| `stepDetails` | string | The details of the step associated with the node. |
-	| `parentNodeName` | string, optional | The name of the parent node, if any. Default is `null`. |
-	| `hasChild` | bool, optional | A value indicating whether the node has child nodes. Default is `false`. |
-	| `isChild` | bool, optional | A value indicating whether the node is a child node. Default is `false`. |
+	| `parentNodeName` | string, optional | The name of the parent node, if any. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+	| `hasChild` | bool, optional | A value indicating whether the node has child nodes. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `false`. |
+	| `isChild` | bool, optional | A value indicating whether the node is a child node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `false`. |
 
 === "Properties"
 
@@ -41,9 +41,9 @@ Represents the details of a node, including its name, step details, parent node 
 	| --- | --- | --- |
 	| `NodeName` | string | Gets or sets the name of the node. |
 	| `StepDetails` | string | Gets or sets the details of the step associated with the node. |
-	| `ParentNodeName` | string | Gets or sets the name of the parent node, if any. Default is `null`. |
-	| `HasChild` | bool | Gets or sets a value indicating whether the node has child nodes. Default is `false`. |
-	| `IsChild` | bool | Gets or sets a value indicating whether the node is a child node. Default is `false`. |
+	| `ParentNodeName` | string | Gets or sets the name of the parent node, if any. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
+	| `HasChild` | bool | Gets or sets a value indicating whether the node has child nodes. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `false`. |
+	| `IsChild` | bool | Gets or sets a value indicating whether the node is a child node. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `false`. |
 
 #### Usage
 
@@ -206,7 +206,7 @@ This method is used to execute a test step and log the result of the test step t
 	| --- | --- | --- |
 	| `stepAction` | Action | The action to be executed in the test step. |
 	| `stepName` | string | The name of the test step to be executed and logged to the report. |
-	| `stepDetails` | string | The details of the test step to be logged to the current node in the report. Default is `null`. |
+	| `stepDetails` | string | The details of the test step to be logged to the current node in the report. [:octicons-goal-24:](../../getting-started/conventions.md/#default) is `null`. |
 
 === "Functionality"
 

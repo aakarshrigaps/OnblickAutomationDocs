@@ -79,7 +79,7 @@ Verifies that a user can successfully log in with valid credentials.
 
 #### Test Data
 
-- Username: `testuser`
+- Username: `TestUser`
 - Password: `password123`
 
 #### Attachments
