@@ -1,7 +1,7 @@
 # Projects Documentation
 
 ## Overview
-This document provides detailed instructions for managing projects within the system. It covers adding, searching, updating, and deleting projects, as well as managing document uploads and requests for both client and vendor (1099) documents.
+This document provides detailed instructions for managing projects within the system. It covers adding, searching, updating, and deleting projects, as well as managing document uploads and requests for both client and vendor/1099 documents.
 
 ---
 
@@ -65,7 +65,7 @@ Updating a project involves modifying details like project dates, team members, 
    1. **Search and Select the Project**:
       - Follow the search steps above to locate the project you want to update.
 
-   1. **Click ‘Edit’**:
+   1. **Click ‘Update’**:
       - Click on **Actions** button for the corresponding project.
       - Click the **Update Project** button to enter the project editing mode.
 
@@ -73,7 +73,7 @@ Updating a project involves modifying details like project dates, team members, 
       - Update relevant fields such as:
         - **Project Dates** (extend or shorten as needed)
         - **Timesheet Details** (Timesheet Cycle, OverTime applicable etc.,)
-        - **Client or Vendor Details** 
+        - **Client or Vendor/1099 Details** 
         - **Invoice Details** 
 
    1. **Save Changes**:
@@ -86,7 +86,7 @@ Updating a project involves modifying details like project dates, team members, 
 
 ## Upload Documents (Client and Vendor/1099)
 
-Uploading documents such as client agreements and vendor (1099) documents is essential for compliance and record-keeping.
+Uploading documents such as client agreements and vendor/1099 documents is essential for compliance and record-keeping.
 
 ### Steps
 
@@ -154,7 +154,7 @@ Requesting documents allows you to gather necessary files from clients or vendor
    1. **Upload Received Documents**:
       - As soon as the request is completed, documents are received and uploaded automatically.
 
-   1. **Review and Confirm**:
+   1. **Review**:
       - Ensure that all requested documents have been uploaded correctly.
 
 ---
@@ -177,5 +177,3 @@ Deleting a project removes all associated data and documents permanently. Make s
       - A confirmation prompt will appear. Review the details carefully, as this action is irreversible.
       - Click **Confirm** to delete the project.
 
-   1. **Verify Deletion**:
-      - Ensure that the project no longer appears in the project list and that all related documents are removed.
