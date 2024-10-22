@@ -100,7 +100,6 @@ nav:
       - Writing Your First Test: writing-tests/first-test.md
       - Running Tests: writing-tests/running-tests.md
       - Module-wise Tests Covered: 
-        # - Current Tests: writing-tests/tests.md
         - Onboard Tests: writing-tests/module-wise/onboard-tests.md
         - Change Password Tests: writing-tests/module-wise/change-password-tests.md
         - End Employment Tests: writing-tests/module-wise/end-employment-tests.md
@@ -108,6 +107,8 @@ nav:
         - Form I-983 Tests: writing-tests/module-wise/form-i983-tests.md
         - Sign Request Tests: writing-tests/module-wise/sign-request-tests.md
         - Project Tests: writing-tests/module-wise/project-tests.md
+        - W4 Tests: writing-tests/module-wise/w4-tests.md
+        - I9 Tests: writing-tests/module-wise/i9-tests.md
   - Utilities and Helpers:
       - Pre-defined Utilities:
           - Attribute Extensions: utilities-and-helpers/pre-defined-utilities/attribute-extensions.md
