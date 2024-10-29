@@ -90,6 +90,9 @@ theme:
 extra_css:
   - assets/styles/extras.css
 
+extra_javascript:
+  - assets/scripts/extras.js
+
 nav:
   - Home: index.md
   - Getting Started:
