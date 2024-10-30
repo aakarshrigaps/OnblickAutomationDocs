@@ -73,7 +73,7 @@ This test validates the workflow for uploading an H-1B denial for an onboarded e
 
 #### Steps
 
-   1. **Upload H1B**
+   1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
       - Petition Status type: H-1B Denial Received.
@@ -101,7 +101,7 @@ This test validates the workflow for uploading an H-1B denial for an onboarded e
 This test simulates the workflow for handling the H-1B petition process, including uploading the I-797C notice, requesting H-1B petition documents, updating employee details, and completing the process for approval or denial.
 
 #### Steps
-   1. **Upload H1B**
+   1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
       - Petition Status type: H-1B Receipt Notice(I-797C) Received.
@@ -179,7 +179,7 @@ This test simulates the workflow for handling the H-1B petition process, includi
 This test validates the process of handling a NOID for an H-1B petition. It includes steps to upload the NOID, respond to it, and approve the petition.
 
 #### Steps
-   1. **Upload H1B**
+   1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
       - Petition Status type: H-1B NOID Received.
@@ -201,7 +201,7 @@ This test validates the process of handling a NOID for an H-1B petition. It incl
       - Validate Uploaded Data.
 
    1. **Actions for Supporting H-1B Documents**
-      - Perform Actions(include View Document, Download Document,Edit Document,Share Document) for all H-1B Supporting Documents which have submitted by HR.
+      - Perform Actions(include View Document, Download Document,Edit Document,Share Document) for all H-1B Supporting documents submitted by HR.
 
    1. **Upload H-1B Approval Notice**
       - Select H-1B Approved through main Actions. 
@@ -247,7 +247,7 @@ This test validates the process of handling a NOID for an H-1B petition. It incl
 This test validates the process of handling a NOIR for an H-1B petition. It includes steps to upload the NOIR, respond to it, and approve.
 
 #### Steps
-   1. **Upload H1B**
+   1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
       - Petition Status type: H-1B NOIR Received.
@@ -311,7 +311,7 @@ This test validates the process of handling a NOIR for an H-1B petition. It incl
 #### Description
 This test validates the process for managing H-1B petition documents required by USCIS, handling the potential for case rejection, and ensuring the correct documentation is uploaded and reviewed.
 #### Steps
-   1. **Upload H1B**
+   1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
       - Petition Status type: H-1B petition sent to USCIS.
@@ -323,7 +323,7 @@ This test validates the process for managing H-1B petition documents required by
       - Validate Uploaded Data.
 
    1. **Actions for Supporting H-1B Documents (HR)**
-      - Perform Actions(include View Document, Download Document,Edit Document,Share Document) for all H-1B Supporting Documents which have submitted by HR.
+      - Perform Actions(include View Document, Download Document,Edit Document,Share Document) for all H-1B Supporting documents submitted by HR.
 
    1. **Case Rejected by USCIS**
       - Select Case Rejected and Upload Case Rejection Document.
@@ -346,7 +346,7 @@ This test validates the process for managing H-1B petition documents required by
 This test validates the process of handling a RFE for an H-1B petition. It includes steps to upload the RFE, respond to it, and approve the petition.
 
 #### Steps
-   1. **Upload H1B**
+   1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer
       - Petition Status type: H-1B RFE Received.
@@ -399,7 +399,7 @@ This test validates the process of handling a RFE for an H-1B petition. It inclu
 
 ----------------------------------------------------------------------------------------
 
-### **Withdawn/Revoked**
+### **Withdrawn/Revoked**
 
 **Test Name**: `H1BTest_Withdrawn`
 
@@ -408,7 +408,7 @@ This test verifies the workflow for withdrawing H-1B.
 
 #### Steps
 
-   1. **Upload H1B**
+   1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer
       - Petition Status type: H-1B Withdrawn/Revoked.
