@@ -5,7 +5,7 @@
 - **Description**: The Single Onboard process allows the onboarding of individual users through manual input. It ensures that user-specific data is correctly entered and validated before being stored in the system. This process is crucial for scenarios where a single user needs to be added to the system to access the platform's features.
 - **Scenarios**: The Single Onboard process is typically tested with both positive and negative cases to verify the system's ability to handle complete and incomplete data submissions.
 
-### Positive Case – With All Mandatory Fields
+### Positive Case – With All Mandatory Fields { data-toc-label="Positive Case" }
 
 - **Description**: This test involves onboarding a single user.
 - **Steps**:
@@ -15,7 +15,7 @@
     4. Verify that the user appears in the system with the correct details.
 - **Included in almost every test**: This scenario is a fundamental part of the onboarding process and is included in most test cases to ensure basic functionality.
 
-### Negative Case – Missing Mandatory Fields
+### Negative Case – Missing Mandatory Fields { data-toc-label="Negative Case" }
 
 - **Description**: This test checks how the system handles errors when mandatory fields are missing during onboarding.
 
@@ -36,7 +36,7 @@
     4. Submit the form.
     5. Verify that all candidates appear in the system with the correct details.
 
-### Positive Case – Without Any Missing Fields
+### Positive Case – Without Any Missing Fields { data-toc-label="Positive Case" }
 - **Description**: This test ensures that the bulk onboarding process works correctly when all required fields are present in the CSV file.
 - **Steps**:
     1. Prepare a CSV file with complete data for all required fields.
@@ -44,7 +44,7 @@
     3. Verify that all candidates are onboarded successfully.
     4. Check that there are no errors or warnings.
 
-### Negative Case – Missing Mandatory Fields in the CSV
+### Negative Case – Missing Mandatory Fields in the CSV { data-toc-label="Negative Case" }
 - **Description**: This test checks how the system handles errors when mandatory fields are missing in the CSV file.
 - **Steps**:
     1. Prepare a CSV file with some missing mandatory fields (e.g., missing email or designation).

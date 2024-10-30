@@ -1,5 +1,8 @@
-# H-1B Documentation
+---
+toc_depth: 3
+---
 
+# H-1B Documentation
 
 ## **Initiate H-1B Scenarios**
 

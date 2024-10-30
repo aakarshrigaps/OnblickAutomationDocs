@@ -1,3 +1,7 @@
+---
+toc_depth: 2
+---
+
 # I-9 Documentation
 
 ## Overview
@@ -5,7 +9,7 @@ This document provides detailed guidance on managing I-9 forms, including retrie
 
 ---
 
-## 1. Retrieve I-9 Settings
+## Retrieve I-9 Settings
 
 To begin managing I-9 forms, retrieve the current settings.
 
@@ -23,7 +27,7 @@ To begin managing I-9 forms, retrieve the current settings.
 
 ---
 
-## 2. Initiate I-9
+## Initiate I-9
 
 Initiating an I-9 form can be done by either a Physical Employer Representative or an Authorized Representative.
 
@@ -55,7 +59,7 @@ Initiating an I-9 form can be done by either a Physical Employer Representative 
 
 ---
 
-## 3. Section-1 – General Positive Flows
+## Section-1 – General Positive Flows
 
 ### Steps
 
@@ -71,7 +75,7 @@ Initiating an I-9 form can be done by either a Physical Employer Representative 
 
 ---
 
-## 4. Section-2 – General Positive Flows
+## Section-2 – General Positive Flows
 
 ### Steps
 
@@ -92,7 +96,7 @@ Initiating an I-9 form can be done by either a Physical Employer Representative 
 
 ---
 
-## 5. Section-3
+## Section-3
 
 ### Name Change
 
@@ -118,7 +122,7 @@ Initiating an I-9 form can be done by either a Physical Employer Representative 
 4. **Reverify and Complete Section 3**:
     - Complete Section-3 with the updated information.
 
-## 6.Section-1 Update
+## Section-1 Update
 
 1. **Section 1 Update**:
     - Follow both update and correction flows to modify Section-1 as needed.
@@ -130,7 +134,7 @@ Initiating an I-9 form can be done by either a Physical Employer Representative 
     - **Step 4**: Save changes.
     - **Step 5**: Submit for review.
 
-## 7.Section-2 Update
+## Section-2 Update
 
 1. **Complete Section-1**:
     - Ensure Section-1 is filled out correctly before proceeding.
@@ -146,7 +150,7 @@ Initiating an I-9 form can be done by either a Physical Employer Representative 
 
 ---
 
-## 8. Section-1 Resend
+## Section-1 Resend
 
 ### Steps
 

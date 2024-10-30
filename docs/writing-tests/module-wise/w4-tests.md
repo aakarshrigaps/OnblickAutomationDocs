@@ -1,3 +1,7 @@
+---
+toc_depth: 2
+---
+
 # W4
 
 ## Overview
@@ -5,7 +9,7 @@ This document provides a comprehensive guide for managing W4 forms (both State a
 
 ---
 
-## 1. Upload and Validate W4 from HR (State and Federal)
+## Upload and Validate W4 from HR (State and Federal) { data-toc-label="Upload and Validate W4 - HR" }
 
 This section outlines the steps for HR to upload and validate W4 forms.
 
@@ -35,7 +39,7 @@ This section outlines the steps for HR to upload and validate W4 forms.
 
 ---
 
-## 2. Upload and Validate W4 from ESS (State and Federal)
+## Upload and Validate W4 from ESS (State and Federal) { data-toc-label="Upload and Validate W4 - ESS" }
 
 This section outlines the steps for employees (ESS) to upload and validate W4 forms.
 
@@ -65,7 +69,7 @@ This section outlines the steps for employees (ESS) to upload and validate W4 fo
 
 ---
 
-## 3. Initiate W4
+## Initiate W4
 
 HR can initiate a new W4 form for an employee if needed.
 
@@ -93,7 +97,7 @@ HR can initiate a new W4 form for an employee if needed.
 
 ---
 
-## 4. Request Document by HR
+## Request Document by HR
 
 HR can request W4 documents from employees if they are missing or need updates.
 
@@ -120,7 +124,7 @@ HR can request W4 documents from employees if they are missing or need updates.
 
 ---
 
-## 5. Upload Document from ESS
+## Upload Document from ESS
 
 Employees can upload W4 documents in response to HR’s request.
 
@@ -143,7 +147,7 @@ Employees can upload W4 documents in response to HR’s request.
 
 ---
 
-## 6. Validate All Actions on Document (in all the above cases)
+## Validate All Actions on Document (in all the above cases) { data-toc-label="Validate Actions" }
 
 ### Steps
 
@@ -155,7 +159,7 @@ Employees can upload W4 documents in response to HR’s request.
 
 ---
 
-## 7. View Document
+## View Document
 
 View the details of any W4 form uploaded to the system.
 
@@ -172,7 +176,7 @@ View the details of any W4 form uploaded to the system.
 
 ---
 
-## 8. Download Document
+## Download Document
 
 Download W4 forms for record-keeping or review purposes.
 
@@ -189,7 +193,7 @@ Download W4 forms for record-keeping or review purposes.
 
 ---
 
-## 9. Update Document
+## Update Document
 
 Update existing W4 documents if changes are necessary.
 
@@ -209,7 +213,7 @@ Update existing W4 documents if changes are necessary.
 
 ---
 
-## 10. Remove Document
+## Remove Document
 
 Remove a W4 document that is no longer needed.
 

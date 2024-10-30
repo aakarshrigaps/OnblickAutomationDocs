@@ -1,3 +1,7 @@
+---
+toc_depth: 2
+---
+
 # Projects Documentation
 
 ## Overview
@@ -84,7 +88,7 @@ Updating a project involves modifying details like project dates, team members, 
 
 ---
 
-## Upload Documents (Client and Vendor/1099)
+## Upload Documents (Client and Vendor/1099) { data-toc-label="Upload Documents" }
 
 Uploading documents such as client agreements and vendor/1099 documents is essential for compliance and record-keeping.
 
@@ -111,7 +115,7 @@ Uploading documents such as client agreements and vendor/1099 documents is essen
 
 ---
 
-## Request and Upload Documents (Client and Vendor/1099)
+## Request and Upload Documents (Client and Vendor/1099) { data-toc-label="Request and Upload Documents" }
 
 Requesting documents allows you to gather necessary files from clients or vendors and upload them efficiently.
 
