@@ -1,3 +1,7 @@
+---
+toc_depth: 3
+---
+
 # Writing Proper Test Cases
 
 ## **Introduction**

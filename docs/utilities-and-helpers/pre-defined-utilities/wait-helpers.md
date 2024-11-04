@@ -1,3 +1,7 @@
+---
+toc_depth: 3
+---
+
 # WaitHelpers
 
 The `WaitHelpers` class provides various methods for waiting for certain conditions using Selenium WebDriver.

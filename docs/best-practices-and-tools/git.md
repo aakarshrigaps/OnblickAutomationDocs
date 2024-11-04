@@ -1,3 +1,7 @@
+---
+toc_depth: 3
+---
+
 # Using Git
 
 ## **What is Git?**

@@ -545,7 +545,7 @@ The `AddSupervisorInReportingTo` method assigns a supervisor to the "Reporting T
 
 	This method is used internally in the [`ManageSupervision`](#managesupervision) method to assign a supervisor to the "Reporting To" field.
 
-#### ClickEllipsisUnderBanner [:fontawesome-solid-global:](../../getting-started/conventions.md/#public)
+#### ClickEllipsisUnderBanner [:octicons-globe-24:](../../getting-started/conventions.md/#public)
 
 ---
 

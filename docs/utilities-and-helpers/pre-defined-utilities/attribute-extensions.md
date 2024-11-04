@@ -1,3 +1,6 @@
+---
+toc_depth: 3
+---
 # AttributeExtensions
 
 `AttributeExtensions` is a library that provides a set of extension methods for working with NUnit attributes.
