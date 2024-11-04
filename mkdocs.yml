@@ -1,4 +1,6 @@
 site_name: OnBlick Automation Reference Guide
+site_url: https://aakarshrigaps.github.io/OnblickAutomationDocs/
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -112,6 +114,7 @@ nav:
         - End Employment Tests: writing-tests/module-wise/end-employment-tests.md
         - Timesheet Tests: writing-tests/module-wise/timesheet-tests.md
         - Form I-983 Tests: writing-tests/module-wise/form-i983-tests.md
+        - Form I-129 Tests: writing-tests/module-wise/form-i129-tests.md
         - Sign Request Tests: writing-tests/module-wise/sign-request-tests.md
         - Project Tests: writing-tests/module-wise/project-tests.md
         - W4 Tests: writing-tests/module-wise/w4-tests.md
@@ -119,6 +122,7 @@ nav:
         - H1B Tests: 
           - Upload H-1B Tests: writing-tests/module-wise/upload-h1b-tests.md
           - Initiate H-1B Tests: writing-tests/module-wise/initiate-h1b-tests.md
+        - Workforce Filter Tests: writing-tests/module-wise/workforce-filter-tests.md     
   - Utilities and Helpers:
       - Pre-defined Utilities:
           - Attribute Extensions: utilities-and-helpers/pre-defined-utilities/attribute-extensions.md
