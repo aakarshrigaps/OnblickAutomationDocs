@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://aakarshrigaps.github.io/OnblickAutomationDocs/getting-started/build/">
+        <link rel="canonical" href="https://aakarshrigaps.github.io/OnblickAutomationDocs/writing-tests/module-wise/form-i129-tests/">
       
       
-        <link rel="prev" href="../setting-up/">
+        <link rel="prev" href="../form-i983-tests/">
       
       
-        <link rel="next" href="../../writing-tests/test-cases/">
+        <link rel="next" href="../sign-request-tests/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
     
     
       
-        <title>Building the solution - OnBlick Automation Reference Guide</title>
+        <title>Form I-129 Tests - OnBlick Automation Reference Guide</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/styles/extras.css">
+      <link rel="stylesheet" href="../../../assets/styles/extras.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#building-the-solution" class="md-skip">
+        <a href="#wip" class="md-skip">
           Skip to content
         </a>
       
@@ -100,9 +100,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="OnBlick Automation Reference Guide" class="md-header__button md-logo" aria-label="OnBlick Automation Reference Guide" data-md-component="logo">
+    <a href="../../.." title="OnBlick Automation Reference Guide" class="md-header__button md-logo" aria-label="OnBlick Automation Reference Guide" data-md-component="logo">
       
-  <img src="../../assets/images/onblick-logo.gif" alt="logo">
+  <img src="../../../assets/images/onblick-logo.gif" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Building the solution
+              Form I-129 Tests
             
           </span>
         </div>
@@ -221,7 +221,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
     
@@ -236,13 +236,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../conventions/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../../getting-started/conventions/" class="md-tabs__link">
           
   
   Getting Started
@@ -256,11 +254,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../writing-tests/test-cases/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../test-cases/" class="md-tabs__link">
           
   
   Writing Tests
@@ -284,7 +284,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../utilities-and-helpers/pre-defined-utilities/attribute-extensions/" class="md-tabs__link">
+        <a href="../../../utilities-and-helpers/pre-defined-utilities/attribute-extensions/" class="md-tabs__link">
           
   
   Utilities and Helpers
@@ -305,7 +305,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../page-object-model/pom-introduction/" class="md-tabs__link">
+        <a href="../../../page-object-model/pom-introduction/" class="md-tabs__link">
           
   
   Page Object Model (POM)
@@ -323,7 +323,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../debugging-and-troubleshooting/debugging/" class="md-tabs__link">
+        <a href="../../../debugging-and-troubleshooting/debugging/" class="md-tabs__link">
           
   
   Debugging and Troubleshooting
@@ -341,7 +341,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../advanced-topics/system-files/" class="md-tabs__link">
+        <a href="../../../advanced-topics/system-files/" class="md-tabs__link">
           
   
   Advanced Topics
@@ -359,7 +359,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../best-practices-and-tools/best-practices/" class="md-tabs__link">
+        <a href="../../../best-practices-and-tools/best-practices/" class="md-tabs__link">
           
   
   Best Practices and Tools
@@ -392,9 +392,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="OnBlick Automation Reference Guide" class="md-nav__button md-logo" aria-label="OnBlick Automation Reference Guide" data-md-component="logo">
+    <a href="../../.." title="OnBlick Automation Reference Guide" class="md-nav__button md-logo" aria-label="OnBlick Automation Reference Guide" data-md-component="logo">
       
-  <img src="../../assets/images/onblick-logo.gif" alt="logo">
+  <img src="../../../assets/images/onblick-logo.gif" alt="logo">
 
     </a>
     OnBlick Automation Reference Guide
@@ -409,7 +409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -418,6 +418,158 @@
   
 
       </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../getting-started/conventions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conventions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../getting-started/prerequisites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prerequisites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../getting-started/project-structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Structure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../getting-started/setting-up/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting Up the Environment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../getting-started/build/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building the solution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -446,24 +598,24 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    Getting Started
+    Writing Tests
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Getting Started
+            Writing Tests
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -474,11 +626,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../conventions/" class="md-nav__link">
+      <a href="../../test-cases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Conventions
+    Writing Proper Test Cases
   </span>
   
 
@@ -495,11 +647,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../prerequisites/" class="md-nav__link">
+      <a href="../../first-test/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Prerequisites
+    Writing Your First Test
   </span>
   
 
@@ -516,11 +668,77 @@
   
   
     <li class="md-nav__item">
-      <a href="../project-structure/" class="md-nav__link">
+      <a href="../../running-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Project Structure
+    Running Tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Module-wise Tests Covered
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Module-wise Tests Covered
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboard-tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Onboard Tests
   </span>
   
 
@@ -537,11 +755,74 @@
   
   
     <li class="md-nav__item">
-      <a href="../setting-up/" class="md-nav__link">
+      <a href="../change-password-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Setting Up the Environment
+    Change Password Tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../end-employment-tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    End Employment Tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timesheet-tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timesheet Tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../form-i983-tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Form I-983 Tests
   </span>
   
 
@@ -567,396 +848,7 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Building the solution
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Building the solution
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-    <a href="#step-by-step-guide" class="md-nav__link">
-      <span class="md-ellipsis">
-        Step-by-Step Guide
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-      <nav class="md-nav" aria-label="Step-by-Step Guide">
-        <ul class="md-nav__list">
-          
-          
-            <li class="md-nav__item">
-    <a href="#open-the-solution-in-visual-studio" class="md-nav__link">
-      <span class="md-ellipsis">
-        Open the Solution in Visual Studio
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#restore-nuget-packages" class="md-nav__link">
-      <span class="md-ellipsis">
-        Restore NuGet Packages
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#build-the-solution" class="md-nav__link">
-      <span class="md-ellipsis">
-        Build the Solution
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#verify-the-build-output" class="md-nav__link">
-      <span class="md-ellipsis">
-        Verify the Build Output
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#conclusion" class="md-nav__link">
-      <span class="md-ellipsis">
-        Conclusion
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-        </ul>
-      </nav>
-    
-  </li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Writing Tests
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Writing Tests
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/test-cases/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Writing Proper Test Cases
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/first-test/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Writing Your First Test
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/running-tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Running Tests
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Module-wise Tests Covered
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_4">
-            <span class="md-nav__icon md-icon"></span>
-            Module-wise Tests Covered
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/onboard-tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Onboard Tests
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/change-password-tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Change Password Tests
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/end-employment-tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    End Employment Tests
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/timesheet-tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Timesheet Tests
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/form-i983-tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Form I-983 Tests
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/form-i129-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -965,6 +857,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -977,7 +870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/sign-request-tests/" class="md-nav__link">
+      <a href="../sign-request-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -998,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/project-tests/" class="md-nav__link">
+      <a href="../project-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1019,7 +912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/w4-tests/" class="md-nav__link">
+      <a href="../w4-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1040,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/i9-tests/" class="md-nav__link">
+      <a href="../i9-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1101,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/upload-h1b-tests/" class="md-nav__link">
+      <a href="../upload-h1b-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1122,7 +1015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/initiate-h1b-tests/" class="md-nav__link">
+      <a href="../initiate-h1b-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1151,7 +1044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../writing-tests/module-wise/workforce-filter-tests/" class="md-nav__link">
+      <a href="../workforce-filter-tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1267,7 +1160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/attribute-extensions/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/attribute-extensions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1288,7 +1181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/browser-options/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/browser-options/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1309,7 +1202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/extent-manager/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/extent-manager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1330,7 +1223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/login-creds/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/login-creds/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1351,7 +1244,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/reports-generation-class/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/reports-generation-class/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1372,7 +1265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/shared-failure-context/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/shared-failure-context/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1393,7 +1286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/soft-assertion/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/soft-assertion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1414,7 +1307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/testexecution-helper/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/testexecution-helper/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1435,7 +1328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/urls/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/urls/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1456,7 +1349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/pre-defined-utilities/wait-helpers/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/pre-defined-utilities/wait-helpers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1525,7 +1418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/webextensions/webdriver-extensions/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/webextensions/webdriver-extensions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1546,7 +1439,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../utilities-and-helpers/webextensions/webelement-extensions/" class="md-nav__link">
+      <a href="../../../utilities-and-helpers/webextensions/webelement-extensions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1622,7 +1515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/pom-introduction/" class="md-nav__link">
+      <a href="../../../page-object-model/pom-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1643,7 +1536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/pom-guidelines/" class="md-nav__link">
+      <a href="../../../page-object-model/pom-guidelines/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1704,7 +1597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/frequently-utilized-pom-classes/login-page/" class="md-nav__link">
+      <a href="../../../page-object-model/frequently-utilized-pom-classes/login-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1725,7 +1618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/frequently-utilized-pom-classes/onboard-page/" class="md-nav__link">
+      <a href="../../../page-object-model/frequently-utilized-pom-classes/onboard-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1746,7 +1639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/frequently-utilized-pom-classes/settings-page/" class="md-nav__link">
+      <a href="../../../page-object-model/frequently-utilized-pom-classes/settings-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1767,7 +1660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/frequently-utilized-pom-classes/workforce-page/" class="md-nav__link">
+      <a href="../../../page-object-model/frequently-utilized-pom-classes/workforce-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1836,7 +1729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/frequently-utilized-pom-classes/mail-pages/mailhog-page/" class="md-nav__link">
+      <a href="../../../page-object-model/frequently-utilized-pom-classes/mail-pages/mailhog-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1857,7 +1750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/frequently-utilized-pom-classes/mail-pages/mailinator-page/" class="md-nav__link">
+      <a href="../../../page-object-model/frequently-utilized-pom-classes/mail-pages/mailinator-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1878,7 +1771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../page-object-model/frequently-utilized-pom-classes/mail-pages/maildrop-page/" class="md-nav__link">
+      <a href="../../../page-object-model/frequently-utilized-pom-classes/mail-pages/maildrop-page/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1954,7 +1847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debugging-and-troubleshooting/debugging/" class="md-nav__link">
+      <a href="../../../debugging-and-troubleshooting/debugging/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1975,7 +1868,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debugging-and-troubleshooting/troubleshooting/" class="md-nav__link">
+      <a href="../../../debugging-and-troubleshooting/troubleshooting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2043,7 +1936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced-topics/system-files/" class="md-nav__link">
+      <a href="../../../advanced-topics/system-files/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2064,7 +1957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced-topics/reports/" class="md-nav__link">
+      <a href="../../../advanced-topics/reports/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2085,7 +1978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced-topics/ci/" class="md-nav__link">
+      <a href="../../../advanced-topics/ci/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2153,7 +2046,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-practices-and-tools/best-practices/" class="md-nav__link">
+      <a href="../../../best-practices-and-tools/best-practices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2174,7 +2067,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-practices-and-tools/git/" class="md-nav__link">
+      <a href="../../../best-practices-and-tools/git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2195,7 +2088,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-practices-and-tools/vs-shortcuts/" class="md-nav__link">
+      <a href="../../../best-practices-and-tools/vs-shortcuts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2236,96 +2129,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-    <a href="#step-by-step-guide" class="md-nav__link">
-      <span class="md-ellipsis">
-        Step-by-Step Guide
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-      <nav class="md-nav" aria-label="Step-by-Step Guide">
-        <ul class="md-nav__list">
-          
-          
-            <li class="md-nav__item">
-    <a href="#open-the-solution-in-visual-studio" class="md-nav__link">
-      <span class="md-ellipsis">
-        Open the Solution in Visual Studio
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#restore-nuget-packages" class="md-nav__link">
-      <span class="md-ellipsis">
-        Restore NuGet Packages
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#build-the-solution" class="md-nav__link">
-      <span class="md-ellipsis">
-        Build the Solution
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#verify-the-build-output" class="md-nav__link">
-      <span class="md-ellipsis">
-        Verify the Build Output
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-          
-            <li class="md-nav__item">
-    <a href="#conclusion" class="md-nav__link">
-      <span class="md-ellipsis">
-        Conclusion
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-          
-          
-        </ul>
-      </nav>
-    
-  </li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2339,50 +2142,7 @@
                   
 
 
-<h1 id="building-the-solution">Building the Solution</h1>
-<p>Building the solution is an essential step to ensure that all dependencies are correctly installed and the project is ready for execution. Follow the steps below to build the solution for your Selenium C# automation project.</p>
-<h2 id="step-by-step-guide">Step-by-Step Guide</h2>
-<h3 id="open-the-solution-in-visual-studio"><strong>Open the Solution in Visual Studio</strong></h3>
-<hr />
-<ul>
-<li>Open Visual Studio 2022.</li>
-<li>Navigate to the project directory and open the solution file (<code>.sln</code>).</li>
-</ul>
-<h3 id="restore-nuget-packages"><strong>Restore NuGet Packages</strong></h3>
-<hr />
-<p>To restore the necessary NuGet packages:</p>
-<ul>
-<li>In Visual Studio, go to <code>Tools</code> &gt; <code>NuGet Package Manager</code> &gt; <code>Package Manager Console</code>.</li>
-<li>Run the following command:
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>dotnet<span class="w"> </span>restore
-</span></code></pre></div></li>
-<li>This command will install and restore all the NuGet packages required for the project.</li>
-<li>You can also right-click on the solution in the Solution Explorer and select <code>Restore NuGet Packages</code>.</li>
-</ul>
-<h3 id="build-the-solution"><strong>Build the Solution</strong></h3>
-<hr />
-<p>To build the solution:</p>
-<ul>
-<li>Click on <code>Build</code> in the Visual Studio menu.</li>
-<li>Select <code>Build Solution</code> from the dropdown menu.</li>
-<li>Alternatively, you can use the shortcut <code>Ctrl + Shift + B</code> to build the solution or use the <code>dotnet build</code> command in the terminal.</li>
-<li>Visual Studio will compile the project and display any build errors or warnings in the <code>Error List</code> window.</li>
-<li>Ensure that the build is successful without any errors.</li>
-</ul>
-<h3 id="verify-the-build-output"><strong>Verify the Build Output</strong></h3>
-<hr />
-<p>After building the solution, verify the build output:</p>
-<ul>
-<li>Check the <code>Output</code> window in Visual Studio for the build output.</li>
-<li>Ensure that the build succeeded and there are no errors or warnings.</li>
-<li>The build output will show the build time, number of errors, warnings, and other relevant information.</li>
-<li>If there are any errors, review the error messages and resolve them before proceeding.</li>
-<li>If the build is successful, the project is ready for execution.</li>
-</ul>
-<h3 id="conclusion"><strong>Conclusion</strong></h3>
-<hr />
-<p>Building the solution ensures that all dependencies are correctly installed, and the project is compiled without any errors. This step is crucial before running your Selenium C# automation tests to ensure that the project is in a stable state and ready for execution.</p>
-<p><em>Note: If you're ever pushing your code to remote, make sure there are no errors by building the solution first.</em></p>
+<h1 id="wip">WIP</h1>
 
 
 
@@ -2405,7 +2165,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 31, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 4, 2024</span>
   </span>
 
     
@@ -2415,7 +2175,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 4, 2024</span>
   </span>
 
     
@@ -2507,7 +2267,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../setting-up/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Setting Up the Environment">
+          <a href="../form-i983-tests/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Form I-983 Tests">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2517,20 +2277,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Setting Up the Environment
+                Form I-983 Tests
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../writing-tests/test-cases/" class="md-footer__link md-footer__link--next" aria-label="Next: Writing Proper Test Cases">
+          <a href="../sign-request-tests/" class="md-footer__link md-footer__link--next" aria-label="Next: Sign Request Tests">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Writing Proper Test Cases
+                Sign Request Tests
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -2622,12 +2382,12 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.top", "navigation.footer", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.top", "navigation.footer", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
-        <script src="../../assets/scripts/extras.js"></script>
+        <script src="../../../assets/scripts/extras.js"></script>
       
     
   </body>
