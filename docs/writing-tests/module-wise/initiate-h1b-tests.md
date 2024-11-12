@@ -349,8 +349,9 @@ This test case verifies the workflow for processing an H-1B petition that has re
 
 
    1. **Initiate Form I-129**
-      - 
-      
+      - Initiate the Form I-129.
+      - Download and Upload the Signed Form.
+      - This [`Initiate Form I-129`](form-i129-tests.md) document clearly explains how to initiate Form I-129.      
 
    1. **Upload Tracking Information**
       - Upload Tracking Information.
