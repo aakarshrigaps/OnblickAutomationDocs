@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
     
     
       
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#wip" class="md-skip">
+        <a href="#workforce-filters-documentation" class="md-skip">
           Skip to content
         </a>
       
@@ -1043,6 +1043,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Workforce Filter Tests
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1052,6 +1063,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+    <a href="#overview" class="md-nav__link">
+      <span class="md-ellipsis">
+        Overview
+      </span>
+    </a>
+  
+    <!-- Table of contents list -->
+    
+  </li>
+      
+        <li class="md-nav__item">
+    <a href="#workforce-filters-execution" class="md-nav__link">
+      <span class="md-ellipsis">
+        Workforce Filters Execution
+      </span>
+    </a>
+  
+    <!-- Table of contents list -->
+    
+  </li>
+      
+        <li class="md-nav__item">
+    <a href="#filter-parameters" class="md-nav__link">
+      <span class="md-ellipsis">
+        Filter Parameters
+      </span>
+    </a>
+  
+    <!-- Table of contents list -->
+    
+  </li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2129,6 +2192,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+    <a href="#overview" class="md-nav__link">
+      <span class="md-ellipsis">
+        Overview
+      </span>
+    </a>
+  
+    <!-- Table of contents list -->
+    
+  </li>
+      
+        <li class="md-nav__item">
+    <a href="#workforce-filters-execution" class="md-nav__link">
+      <span class="md-ellipsis">
+        Workforce Filters Execution
+      </span>
+    </a>
+  
+    <!-- Table of contents list -->
+    
+  </li>
+      
+        <li class="md-nav__item">
+    <a href="#filter-parameters" class="md-nav__link">
+      <span class="md-ellipsis">
+        Filter Parameters
+      </span>
+    </a>
+  
+    <!-- Table of contents list -->
+    
+  </li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2142,7 +2246,140 @@
                   
 
 
-<h1 id="wip">WIP</h1>
+<h1 id="workforce-filters-documentation">Workforce Filters Documentation</h1>
+<h2 id="overview">Overview</h2>
+<p>This document provides detailed information regarding the implementation of the filters present in the workforce (active, new hires, terminated) tabs.</p>
+<hr />
+<h2 id="workforce-filters-execution">Workforce Filters Execution</h2>
+<p><strong>Test Name</strong>: <code>WorkforceFiltersValidation</code></p>
+<ol>
+<li>
+<p><strong>Login as HR</strong>:</p>
+</li>
+<li>
+<p>Access the HR portal to begin the work force filters process.</p>
+</li>
+<li>
+<p><strong>Complete Workforce filter</strong></p>
+</li>
+<li>
+<p>For each filter type, such as dropdowns, multiple select, and checkboxes, various combinations of filter parameters are created and tested.</p>
+</li>
+<li>
+<p><strong>Apply Filters</strong></p>
+<p>Based on the different <strong>filter types</strong> present in the workforce tab, such as radio buttons, text entry, etc., various filters are applied accordingly.</p>
+<ol>
+<li>
+<p><strong>Radio Button</strong></p>
+<p>When a radio button is selected, any one filter parameter can be chosen, and then the filters are applied.</p>
+<ul>
+<li><strong>Filter Names</strong>: Billing Status, Employee Type, Benefits, Supervisory Status, Employment Start Date</li>
+<li><strong>Filter Parameters</strong>: For filter parameters, refer to the table <a href="#filter-parameters">Filter Parameters</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Text Entry</strong></p>
+<p>In text entry, the date is provided, and then the filters are applied.</p>
+<ul>
+<li><strong>Filter Names</strong>: Employment Start Date Range, Current Project Start Date Range, Termination Date Range</li>
+<li><strong>Filter Parameters</strong>: For filter parameters, refer to the table <a href="#filter-parameters">Filter Parameters</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check Box</strong></p>
+<p>Multiple filter parameters can be selected, and then the filters are applied.</p>
+<ul>
+<li><strong>Filter Names</strong>: Tax Terms, Employment Type</li>
+<li><strong>Filter Parameters</strong>: For filter parameters, refer to the table <a href="#filter-parameters">Filter Parameters</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dropdown</strong></p>
+<p>Retrieve department names from the settings, select a random department name, and then filter is applied.</p>
+<ul>
+<li><strong>Filter Names</strong>: Department</li>
+</ul>
+</li>
+<li>
+<p><strong>Multiple Select</strong></p>
+<p>First, different work authorizations are added, followed by their selection and the application of filters.</p>
+<ul>
+<li><strong>Filter Names</strong>: Work Authorization Type</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Validate Filters</strong></p>
+<p>After applying the filters different filters are validated in different ways.</p>
+<ol>
+<li>
+<p>Validation is performed based on the value present in the resultant applied filters table. Some of the filters include Billing Status, Tax Terms, Employment Type, Benefits, etc.</p>
+</li>
+<li>
+<p>In some conditions, validation occurs by going into the profile of the candidate, and then the applied filters are validated. Some of the filters include Supervisory Status, Employee Type, etc.</p>
+</li>
+<li>
+<p>For the date entry filters, the resultant dates are validated based on the conditions specified in the "From" and "To" dates, respectively. Some of the filters include Employment Start Date Range, Termination Date Range, Current Project Start Date Range, etc.</p>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="filter-parameters">Filter Parameters</h2>
+<table>
+<thead>
+<tr>
+<th>Filter Name</th>
+<th>Filter Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Billing Status</td>
+<td><code>Billing</code>, <code>Non-Billing</code></td>
+</tr>
+<tr>
+<td>Employee Type</td>
+<td><code>All</code>, <code>Trainees</code>, <code>Supervisors</code></td>
+</tr>
+<tr>
+<td>Benefits</td>
+<td><code>Applicable</code>,  <code>Not Applicable</code></td>
+</tr>
+<tr>
+<td>Supervisory Status</td>
+<td><code>Assigned</code>, <code>Unassigned</code></td>
+</tr>
+<tr>
+<td>Employment Start Date</td>
+<td><code>Available</code>, <code>Not Available</code></td>
+</tr>
+<tr>
+<td>Employment Start Date Range</td>
+<td><code>From</code>, <code>To</code></td>
+</tr>
+<tr>
+<td>Current Project Start Date Range</td>
+<td><code>From</code>, <code>To</code></td>
+</tr>
+<tr>
+<td>Termination Date Range</td>
+<td><code>From</code>, <code>To</code></td>
+</tr>
+<tr>
+<td>Tax Terms</td>
+<td><code>All</code>, <code>C2C</code>, <code>W2</code>, <code>1099</code>, <code>Not Available</code></td>
+</tr>
+<tr>
+<td>Employment Type</td>
+<td><code>Full-time</code>, <code>Part-time</code>, <code>Intern</code>, <code>Temporary</code>, <code>Contractor</code>, <code>Freelance</code></td>
+</tr>
+<tr>
+<td>Work Authorization Type</td>
+<td><code>H1B</code>, <code>NewH1BCAP</code>, <code>H1BExtension</code>, <code>H1BTransfer</code>, <code>H1BAmendment</code>, <code>NewH1BCAPExempt</code>, <code>H1BAmendmentExtension</code>, <code>H1BConcurrent</code>, <code>L1Visa</code>, <code>E3Visa</code>, <code>TNVisa</code>, <code>GreenCard</code>, <code>USCitizen</code>, <code>CPT</code>, <code>EADOTHERS</code>, <code>OPTEAD</code>, <code>STEMOPT</code></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -2165,7 +2402,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 4, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 14, 2024</span>
   </span>
 
     
@@ -2185,11 +2422,12 @@
   <span class="md-source-file__fact">
     <span class="md-icon" title="Contributors">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg>
       
     </span>
     <nav>
       
+        <a href="mailto:bhanukrishna@rigaps.com">Bhanu Krishna Patnam</a>, 
         <a href="mailto:aakarsh@rigaps.com">Sai Aakarsh Sriramoju</a>
     </nav>
   </span>
