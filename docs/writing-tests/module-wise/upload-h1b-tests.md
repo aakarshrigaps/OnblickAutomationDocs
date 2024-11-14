@@ -121,7 +121,11 @@ This test simulates the workflow for handling the H-1B petition process, includi
       - Validate H-1B Packet Documents by HR which are uploaded by Employee.
 
    1. **Initiate Form I-129**
-      - 
+      - Initiate the Form I-129.
+      - Download and Upload the Signed Form.
+      - This [`Initiate Form I-129`](form-i129-tests.md) document clearly explains how to initiate Form I-129.
+  
+      
 
    1. **Upload H-1B Approval Notice**
       - Select H-1B Approved through main Actions. 
