@@ -19,7 +19,8 @@ This test validates the workflow for initiating an H-1B petition, creating and u
       - H-1B Classification: New H-1B Cap.
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
-      - Validate Employer Information and Initiate.
+      - Select Employer Signatory Authority.
+      - Validate Employer Signatory Authority Information and Initiate.
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
@@ -36,6 +37,10 @@ This test validates the workflow for initiating an H-1B petition, creating and u
       - Select Case Rejected and Upload Case Rejection Document.
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document,Share Document).
+
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
 
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
@@ -58,7 +63,8 @@ This test case verifies the workflow for handling an H-1B petition that is denie
    1. **Initiate H-1B Petition**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
-      - Validate Employer Information and Initiate.
+      - Select Employer Signatory Authority.
+      - Validate Employer Signatory Authority Information and Initiate.
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
@@ -76,6 +82,10 @@ This test case verifies the workflow for handling an H-1B petition that is denie
       - Select Case Rejected and Upload Case Rejection Document.
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document,Share Document).
+
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
 
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
@@ -98,7 +108,8 @@ This test case verifies the workflow for processing an H-1B petition that has re
    1. **Initiate H-1B Petition**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
-      - Validate Employer Information and Initiate.
+      - Add New Employer Signatory Authority.
+      - Validate Employer Signatory Authority Information and Initiate.
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
@@ -161,6 +172,10 @@ This test case verifies the workflow for processing an H-1B petition that has re
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -182,7 +197,8 @@ This test case verifies the complete workflow for processing an H-1B petition th
    1. **Initiate H-1B Petition**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
-      - Validate Employer Information and Initiate.
+      - Select Employer Signatory Authority..
+      - Validate Employer Signatory Authority Information and Initiate.
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
@@ -252,6 +268,10 @@ This test case verifies the complete workflow for processing an H-1B petition th
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -273,7 +293,8 @@ This test case verifies the complete workflow for processing an H-1B petition th
    1. **Initiate H-1B Petition**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
-      - Validate Employer Information and Initiate.
+      - Select Employer Signatory Authority.
+      - Validate Employer Signatory Authority Information and Initiate.
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
@@ -310,6 +331,10 @@ This test case verifies the complete workflow for processing an H-1B petition th
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -331,7 +356,8 @@ This test case verifies the workflow for processing an H-1B petition that has re
    1. **Initiate H-1B Petition**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
-      - Validate Employer Information and Initiate.
+      - Select Employer Signatory Authority.
+      - Validate Employer Signatory Authority Information and Initiate.
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
@@ -346,7 +372,6 @@ This test case verifies the workflow for processing an H-1B petition that has re
    1. **Review H-1B Petition Beneficiary Information(HR)**
       - Reviews and Approve the beneficiary information by Reviewer and HR
       - Validate H-1B Packet Documents by HR which are uploaded by Employee.
-
 
    1. **Initiate Form I-129**
       - Initiate the Form I-129.
@@ -416,6 +441,10 @@ This test case verifies the workflow for processing an H-1B petition that has re
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -437,7 +466,8 @@ This test case covers the workflow for handling an H-1B petition that is denied 
    1. **Initiate H-1B Petition**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
-      - Validate Employer Information and Initiate.
+      - Select Employer Signatory Authority.
+      - Validate Employer Signatory Authority Information and Initiate.
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
@@ -473,6 +503,10 @@ This test case covers the workflow for handling an H-1B petition that is denied 
       - Updates the Interview status.
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
+
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
 
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
