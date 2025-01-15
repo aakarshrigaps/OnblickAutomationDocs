@@ -125,6 +125,8 @@ nav:
         - Workforce Filter Tests: writing-tests/module-wise/workforce-filter-tests.md   
         - L-1/E-3/TN Visa Tests: writing-tests/module-wise/workauthtab-visas-tests.md 
         - LCA List Tests: writing-tests/module-wise/lca-list-tests.md 
+        - Leave Management: writing-tests/module-wise/leave-management-tests.md
+        - Personnel File Tests: writing-tests/module-wise/personnel-file-tests.md
   - Utilities and Helpers:
       - Pre-defined Utilities:
           - Attribute Extensions: utilities-and-helpers/pre-defined-utilities/attribute-extensions.md
