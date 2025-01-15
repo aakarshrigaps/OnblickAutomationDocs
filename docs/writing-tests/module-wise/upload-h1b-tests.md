@@ -18,6 +18,7 @@ This test validates the workflow for uploading an H-1B approval for an onboarded
    1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
+      - Select Employer Signatory Authority and Validate.
       - Petition Status type: H-1B Approval (I-797A/B) Received.
       - Select H-1B Approval Type: I-797A.
       - Uploads the H-1B Approval document.
@@ -55,6 +56,10 @@ This test validates the workflow for uploading an H-1B approval for an onboarded
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -76,6 +81,7 @@ This test validates the workflow for uploading an H-1B denial for an onboarded e
    1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
+      - Select Employer Signatory Authority and Validate.
       - Petition Status type: H-1B Denial Received.
       - Uploads the Denial Notice.
       - Select Further Action:End Employment.
@@ -83,6 +89,10 @@ This test validates the workflow for uploading an H-1B denial for an onboarded e
       - Upload termination letter and Save.
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document).
+
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
 
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
@@ -104,6 +114,7 @@ This test simulates the workflow for handling the H-1B petition process, includi
    1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
+      - Select Employer Signatory Authority and Validate.
       - Petition Status type: H-1B Receipt Notice(I-797C) Received.
       - Uploads the Receipt Notice(I-797C).
       - Validate Uploaded Data.
@@ -125,8 +136,6 @@ This test simulates the workflow for handling the H-1B petition process, includi
       - Download and Upload the Signed Form.
       - This [`Initiate Form I-129`](form-i129-tests.md) document clearly explains how to initiate Form I-129.
   
-      
-
    1. **Upload H-1B Approval Notice**
       - Select H-1B Approved through main Actions. 
       - Select H-1B Approval Type: I-797B
@@ -166,6 +175,10 @@ This test simulates the workflow for handling the H-1B petition process, includi
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -186,6 +199,7 @@ This test validates the process of handling a NOID for an H-1B petition. It incl
    1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
+      - Add Employer Signatory Authority(Existing HR Manager) and Validate.
       - Petition Status type: H-1B NOID Received.
       - Uploads H-1B NOID Notice.
       - Validate Uploaded Data.
@@ -234,6 +248,10 @@ This test validates the process of handling a NOID for an H-1B petition. It incl
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -254,6 +272,7 @@ This test validates the process of handling a NOIR for an H-1B petition. It incl
    1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
+      - Select Employer Signatory Authority and Validate.
       - Petition Status type: H-1B NOIR Received.
       - Uploads H-1B NOID Notice along with Approved H-1B (I-797A/B) for which you received NOIR status from USCIS.
       - Validate Uploaded Data.
@@ -299,6 +318,10 @@ This test validates the process of handling a NOIR for an H-1B petition. It incl
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -318,6 +341,7 @@ This test validates the process for managing H-1B petition documents required by
    1. **Upload H-1B**
       - Petition Processing Type: General.
       - Petition Filed by: Employer.
+      - Select Employer Signatory Authority and Validate.
       - Petition Status type: H-1B petition sent to USCIS.
       - Upload Tracking Information.
       - Validate Uploaded Data.
@@ -332,6 +356,10 @@ This test validates the process for managing H-1B petition documents required by
    1. **Case Rejected by USCIS**
       - Select Case Rejected and Upload Case Rejection Document.
       - Validate Uploaded Data.
+
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
 
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
@@ -352,7 +380,8 @@ This test validates the process of handling a RFE for an H-1B petition. It inclu
 #### Steps
    1. **Upload H-1B**
       - Petition Processing Type: General.
-      - Petition Filed by: Employer
+      - Petition Filed by: Employer.
+      - Select Employer Signatory Authority and Validate.
       - Petition Status type: H-1B RFE Received.
       - Uploads H-1B RFE Notice.
       - Validate Uploaded Data.
@@ -394,6 +423,10 @@ This test validates the process of handling a RFE for an H-1B petition. It inclu
       - Validate Uploaded Data. 
       - Perform Actions(include View Document, Download Document, Share Document).
 
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
+
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
@@ -414,11 +447,16 @@ This test verifies the workflow for withdrawing H-1B.
 
    1. **Upload H-1B**
       - Petition Processing Type: General.
-      - Petition Filed by: Employer
+      - Petition Filed by: Employer.
+      - Select Employer Signatory Authority and Validate.
       - Petition Status type: H-1B Withdrawn/Revoked.
       - Upload Withdrawal Document.
       - Validate Uploaded Data.
       - Perform Actions(include View Document, Download Document, Share Document).
+   
+   1. **Validate H-1B Actitvity Log**
+      - Select H-1B Activity Log through main Actions.
+      - Validate the data uploaded so far in the H-1B Activity View.
 
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
