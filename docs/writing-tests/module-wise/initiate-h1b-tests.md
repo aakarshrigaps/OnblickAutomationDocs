@@ -352,6 +352,8 @@ This test case verifies the complete workflow for processing an H-1B petition th
 This test case verifies the workflow for processing an H-1B petition that has received a RFE. The workflow includes initiating the petition, creating the required packet, uploading necessary documentation, and ultimately deleting the records to maintain data integrity.
 
 #### Steps
+   1. **Add Project**
+      - Add Project for the Onboarded Employee from their profile.  
 
    1. **Initiate H-1B Petition**
       - Petition Processing Type: General.
@@ -361,6 +363,11 @@ This test case verifies the workflow for processing an H-1B petition that has re
 
    1. **Create H-1B Packet**
       - Create H-1B Packet by selecting Beneficiary Documents Check boxes,RTC Documents Check boxes, Client Documents Check boxes, Petitioner Document Check boxes and Current Work Authorization Documents.
+
+   1. **Upload LCA**
+      - Upload In Progress/Certified LCA.
+      - Validate Uploaded data.
+      - Perform Actions(include View Document, Download Document).
 
    1. **Request H-1B Petition Documents**
       - Request Documents of H-1B petition.
@@ -445,6 +452,12 @@ This test case verifies the workflow for processing an H-1B petition that has re
       - Select H-1B Activity Log through main Actions.
       - Validate the data uploaded so far in the H-1B Activity View.
 
+   1. **Delete LCA**
+      - Remove the LCA record if no longer required.
+   
+   1. **Delete Project**
+      - Delete the linked project if it is no longer associated with any LCA.
+   
    1. **Delete H-1B Record**
       - Select Delete H-1B through main Actions.
       - Deletes the uploaded H-1B information.
