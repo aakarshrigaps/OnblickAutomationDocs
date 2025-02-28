@@ -119,6 +119,7 @@ nav:
         - Project Tests: writing-tests/module-wise/project-tests.md
         - W4 Tests: writing-tests/module-wise/w4-tests.md
         - I9 Tests: writing-tests/module-wise/i9-tests.md
+        - I9 Linkages: writing-tests/module-wise/i9-linkage-tests.md
         - H1B Tests: 
           - Upload H-1B Tests: writing-tests/module-wise/upload-h1b-tests.md
           - Initiate H-1B Tests: writing-tests/module-wise/initiate-h1b-tests.md
