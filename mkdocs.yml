@@ -119,6 +119,7 @@ nav:
         - Project Tests: writing-tests/module-wise/project-tests.md
         - W4 Tests: writing-tests/module-wise/w4-tests.md
         - I9 Tests: writing-tests/module-wise/i9-tests.md
+        - I9 Linkages: writing-tests/module-wise/i9-linkage-tests.md
         - H1B Tests: 
           - Upload H-1B Tests: writing-tests/module-wise/upload-h1b-tests.md
           - Initiate H-1B Tests: writing-tests/module-wise/initiate-h1b-tests.md
@@ -127,6 +128,7 @@ nav:
         - LCA List Tests: writing-tests/module-wise/lca-list-tests.md 
         - Leave Management: writing-tests/module-wise/leave-management-tests.md
         - Personnel File Tests: writing-tests/module-wise/personnel-file-tests.md
+        - Notice of Filing LCA Tests: writing-tests/module-wise/noticeoffiling-lca-tests.md 
   - Utilities and Helpers:
       - Pre-defined Utilities:
           - Attribute Extensions: utilities-and-helpers/pre-defined-utilities/attribute-extensions.md
