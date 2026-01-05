@@ -1,6 +1,6 @@
 # OnBlick Automation Reference Guide
 
-## **Introduction**
+## **Introduction to**
 
 ---
 
